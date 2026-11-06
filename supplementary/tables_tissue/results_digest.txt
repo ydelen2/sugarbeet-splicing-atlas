@@ -1,0 +1,143 @@
+comparisons: 5
+comparisons per group: tissue 5
+
+== event concordance per comparison (all types pooled) ==
+comparison	testable	matched	suppa_nominal	suppa_bh	rmats	both	both_same_dir	higher	lower
+tissue_GT1_control_taproot_vs_leaf	26887	13109	1158	29	2080	137	129	89	40
+tissue_GT3_control_taproot_vs_leaf	26660	14563	538	8	2296	91	89	43	46
+tissue_GT1_cold_taproot_vs_leaf	27268	16501	418	8	2933	102	99	51	48
+tissue_GT2_cold_taproot_vs_leaf	27363	16030	889	14	2652	147	138	53	85
+tissue_GT3_cold_taproot_vs_leaf	27298	16372	323	6	2886	74	71	39	32
+
+== per event type (sum over comparisons; Pearson range over comparisons) ==
+type	testable	matched	suppa_nominal	suppa_bh	rmats	both	both_same_dir	higher	lower	pearson_min	pearson_max	pearson_negative
+SE	27393	18566	515	7	3884	99	98	26	72	0.443	0.502	0
+A3	49239	24922	1179	24	3200	198	187	112	75	0.437	0.551	0
+A5	27068	13400	652	9	1848	103	99	48	51	0.441	0.538	0
+RI	30779	19295	957	25	2831	148	139	88	51	0.386	0.45	0
+MX	997	392	23	0	1084	3	3	1	2	0.148	0.683	0
+events significant in both methods: 551; same direction: 526 (95.5 percent)
+
+== per group and type: high-confidence events (higher/lower in test) ==
+tissue	A3	187	112/75
+tissue	A5	99	48/51
+tissue	MX	3	1/2
+tissue	RI	139	88/51
+tissue	SE	98	26/72
+
+== distinct high-confidence events ==
+distinct events: 370; by type: A3 129, A5 72, MX 3, RI 99, SE 67
+single reference gene 335, several 29, none 6; without eggNOG description 27
+reference genes with at least one high-confidence event: 349
+events by number of comparisons: 1: 270, 2: 64, 3: 22, 4: 8, 5: 6
+events in at least 4 comparisons: 14; mixed direction: 1
+  tissue: 370 distinct events, 349 reference genes
+cold: events by number of cold comparisons: 
+cold core (all six cold comparisons): 0 events, 0 reference genes, mixed direction 0
+
+== consequences ==
+location: CDS 272, UTR 47, none 51
+  SE: 67 events, CDS 51, UTR 4, frame preserved in CDS 12 (23.5 percent)
+  A3: 129 events, CDS 110, UTR 6, frame preserved in CDS 25 (22.7 percent)
+  A5: 72 events, CDS 51, UTR 10, frame preserved in CDS 11 (21.6 percent)
+  RI: 99 events, CDS 58, UTR 27, frame preserved in CDS 22 (37.9 percent)
+  MX: 3 events, CDS 2, UTR 0, frame preserved in CDS 1 (50.0 percent)
+frame preserved in CDS, SE+A3+A5+RI: 70 of 270 (25.9 percent)
+retained introns in CDS: stop codon in frame yes 50, no 3, undetermined 5
+
+== premature stop codons and NMD features (both forms on the annotated gene models) ==
+  SE: CDS events 51, PTC in form 1 23, form 2 17, both 0, none 3, unresolved 8; PTC form with NMD features 38 of 40; PTC form higher in test 24, lower 16
+  A3: CDS events 110, PTC in form 1 76, form 2 21, both 0, none 5, unresolved 8; PTC form with NMD features 96 of 97; PTC form higher in test 79, lower 18
+  A5: CDS events 51, PTC in form 1 37, form 2 9, both 0, none 1, unresolved 4; PTC form with NMD features 46 of 46; PTC form higher in test 36, lower 10
+  RI: CDS events 58, PTC in form 1 45, form 2 4, both 0, none 2, unresolved 7; PTC form with NMD features 48 of 49; PTC form higher in test 34, lower 15
+  MX: CDS events 2, PTC in form 1 0, form 2 0, both 0, none 1, unresolved 1; PTC form with NMD features 0 of 0; PTC form higher in test 0, lower 0
+  all CDS events with a PTC in one form: 232, with NMD features 228; junction rule 0, long 3' UTR 0
+  RI cross-check with ri_ptc: 48 of 48 agree
+
+== Pfam domains touched by the coding events ==
+  frame-preserving: 71 CDS events, placed 65, overlapping a domain 34 (SE 4, A3 10, A5 6, RI 13, MX 1)
+  frame-shifting: 201 CDS events, placed 182, overlapping a domain 115 (SE 19, A3 49, A5 30, RI 17)
+  domains most often affected by frame-preserving events: RRM_1 4, SBF 2, Pkinase 2, PK_Tyr_Ser-Thr 2, LCAT 2, DUF212 1, Methyltransf_23 1, Ubie_methyltran 1, Methyltransf_31 1, Methyltransf_25 1, Methyltransf_11 1, Methyltransf_12 1
+  frame-preserving events inside a domain: event type, gene, aa interval, domains, groups, description
+    A3	Bv2_032800_odqo	95-95	Peptidase_C39_2(51-251):1;Guanylate_cyc_2(54-258):1	tissue	Guanylylate cyclase
+    A3	Bv2_044170_xqwm	108-108	DUF212(60-250):1	tissue	Divergent PAP2 family
+    A3	Bv3_066290_irkr	65-65	Prefoldin(50-172):1	tissue	Binds specifically to cytosolic chaperonin (c-CPN) and trans
+    A3	Bv4_089560_grwu	101-101	PurA(2-140):1	tissue	Transcription factor Pur-alpha
+    A3	Bv4_103000_worq	51-51	Pkinase(4-258):1;PK_Tyr_Ser-Thr(4-255):1	tissue	serine threonine-protein kinase
+    A3	Bv4_115500_xpmn	100-100	Motile_Sperm(87-199):1	tissue	Vesicle-associated protein
+    A3	Bv5_151800_sxgg	268-268	SBF(141-321):1	tissue	sodium metabolite cotransporter BASS3
+    A3	Bv6_172590_npsu	100-100	Lactamase_B_3(95-199):1	tissue	Metallo-hydrolase oxidoreductase superfamily protein
+    A3	Bv7_214040_apfg	275-275	MoCF_biosynth(179-328):1	tissue	Molybdopterin biosynthesis protein
+    A3	Bv8_246020_uooi	111-111	ECH_1(56-305):1;ECH_2(60-410):1	tissue	Belongs to the enoyl-CoA hydratase isomerase family
+    A5	Bv2_049330_xryf	116-116	SDR(7-264):1;adh_short(13-216):1;KR(13-137):1;adh_short_C2(19-262):1	tissue	Peroxisomal 2,4-dienoyl-CoA
+    A5	Bv4_093550_espo	309-309	LCAT(50-400):1	tissue	Phospholipase A(1)
+    A5	Bv6_166900_wtpd	166-166	RRM_1(140-210):1	tissue	U1 small nuclear ribonucleoprotein 70
+    A5	Bv6_179810_hwgx	570-570	Helicase_C(467-579):1	tissue	helicase activity
+    A5	Bv7_213940_oouy	611-611	Ald_Xan_dh_C(610-720):1	tissue	aldehyde oxidase
+    A5	Bv9_269730_jrfd	36-36	RRM_1(8-78):1	tissue	glycine-rich RNA-binding
+    MX	Bv1_015610_uuar	83-133	Aldedh(70-191):51	tissue	Belongs to the aldehyde dehydrogenase family
+    RI	Bv1_014230_tzeg	73-73	RRM_1(30-91):1	tissue	RNA-binding protein
+    RI	Bv1_018400_gwcc	214-214	K_trans(47-519):1	tissue	Potassium transporter
+    RI	Bv2_033150_ohsc	143-143	DUF760(77-159):1	tissue	Protein of unknown function (DUF760)
+    RI	Bv4_093550_espo	78-78	LCAT(50-400):1	tissue	Phospholipase A(1)
+    RI	Bv4_100870_ncro	150-150	TPM_phosphatase(111-236):1	tissue	UPF0603 protein At1g54780
+    RI	Bv6_156860_dycw	209-209	2OG-FeII_Oxy(187-289):1	tissue	Belongs to the iron ascorbate-dependent oxidoreductase famil
+    RI	Bv7_212110_jxgj	21-21	LSM(13-81):1	tissue	U6 snRNA-associated Sm-like protein
+    RI	Bv7_218560_tefh	270-270	SBF_like(92-411):1;SBF(125-306):1	tissue	SBF-like CPA transporter family (DUF4137)
+    RI	Bv8_225030_ijmy	121-121	RbcX(56-166):1	tissue	RbcX protein
+    RI	Bv8_242360_afsr	229-229	Acetyltransf_1(148-253):1;Acetyltransf_7(166-255):1;FR47(190-262):1	tissue	Belongs to the peroxidase family. Classical plant (class III
+    RI	Bv8_243090_jxyz	225-225	Methyltransf_23(133-325):1;Ubie_methyltran(156-295):1;Methyltransf_31(171-328):1;Methyltransf_25(176-274):1;Methyltransf_11(177-278):1;Methyltransf_12(177-276):1	tissue	methyltransferase At2g41040
+    RI	Bv9_260190_ptez	311-311	PC-Esterase(185-467):1	tissue	protein trichome birefringence-like
+    RI	Bv9_265770_zwen	300-300	2-Hacid_dh(18-354):1;2-Hacid_dh_C(128-322):1	tissue	Belongs to the D-isomer specific 2-hydroxyacid dehydrogenase
+    SE	Bv3_082390_pruc	75-75	RRM_1(39-109):1	tissue	splicing factor
+    SE	Bv5_151400_qmot	106-106	eIF-1a(13-114):1	tissue	RNA-binding protein
+    SE	Bv7_198370_eihj	265-265	Peptidase_M20(120-478):1;M20_dimer(256-377):1	tissue	Allantoate
+    SE	Bv_277480_cxsz	207-207	Pkinase(25-316):1;PK_Tyr_Ser-Thr(25-311):1	tissue	mitogen-activated protein kinase
+
+== abscisic acid pathway genes ==
+  all: 1 of 349 genes with events (pathway genes in background 21 of 11929, expected 0.61, p 0.464)
+  tissue: 1 of 349 genes with events (pathway genes in background 21 of 11929, expected 0.61, p 0.464)
+    Bv7_213940_oouy	AAO3	biosynthesis	A5	higher	tissue	aldehyde oxidase
+
+== splicing-regulator families ==
+  PRP: 23 genes, reciprocal best 16, with event 1
+  SF1: 1 genes, reciprocal best 1, with event 0
+  SR: 16 genes, reciprocal best 10, with event 3
+  SR-like: 1 genes, reciprocal best 1, with event 1
+  U2AF: 7 genes, reciprocal best 2, with event 1
+  hnRNP-like: 18 genes, reciprocal best 11, with event 2
+  other splicing factor: 4 genes, reciprocal best 2, with event 0
+  snRNP: 24 genes, reciprocal best 17, with event 2
+  SR subfamilies: RS 5, RS2Z 1, RSZ 2, SC 2, SCL 3, SR 3
+  SR genes: gene, subfamily, ath gene, rule, pident, reciprocal, events
+    Bv1_002650_fexw	RS	RS31	yes	77.8	yes	
+    Bv1_010980_dmoz	RS	RS41	yes	66.2	no	
+    Bv1_012090_usdj	RS	RS31	no	83.3	no	SE:lower:1:tissue
+    Bv2_042890_kyhj	RS	RS31	no	88.9	no	
+    Bv3_068140_sqpz	RS	RS41	yes	74.4	yes	
+    Bv2_045610_ohgg	RS2Z	RS2Z33	yes	57.8	yes	A3:higher:1:tissue;A3:lower:1:tissue
+    Bv2_059100_eopk	RSZ	RSZ22A	yes	72.4	yes	
+    Bv6_183510_hkoy	RSZ	RSZ21	yes	71.7	yes	
+    Bv1_013560_shju	SC	SC35	yes	82.0	yes	
+    Bv9_266890_htkj	SC	SC35	yes	82.4	no	
+    Bv2_031940_fijm	SCL	SCL30	yes	77.0	yes	
+    Bv3_082390_pruc	SCL	SCL33	yes	81.9	yes	SE:higher:1:tissue
+    Bv4_089870_tixd	SCL	SCL30A	yes	63.8	no	
+    Bv1_002220_gtmz	SR	SR34A	yes	74.4	no	
+    Bv3_062680_nkct	SR	SR34A	yes	75.2	yes	
+    Bv7_201690_fgsn	SR	SR34	yes	71.7	yes	
+  enrichment: family, members, with event, expected, p
+    PRP	15	1	0.44	0.36
+    SF1	1	0	0.03	1
+    SR	16	3	0.47	0.0105
+    SR-like	1	1	0.03	0.0293
+    U2AF	7	1	0.2	0.188
+    all families	71	10	2.08	3.81e-05
+    hnRNP-like	16	2	0.47	0.0782
+    other splicing factor	3	0	0.09	1
+    snRNP	12	2	0.35	0.0464
+  background 11929 genes, 349 with event
+
+== GO enrichment ==
+  all: foreground 231 genes, terms tested 1176, FDR<0.05: 8
+  tissue: foreground 231 genes, terms tested 1176, FDR<0.05: 8

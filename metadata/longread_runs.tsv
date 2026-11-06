@@ -1,0 +1,3 @@
+run	study	instrument	library_strategy	library_name	read_count	base_count	fastq_url	fastq_md5	fastq_bytes
+SRR1542626	PRJNA41497	PacBio RS	FL-cDNA	KWS2320 L cDNA SMRT	530757	749480812	https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR154/006/SRR1542626/SRR1542626_subreads.fastq.gz	7ef0eb42a76300ddc07ebc51b728b866	662313538
+SRR1542627	PRJNA41497	PacBio RS	FL-cDNA	KWS2320 L cDNA SMRT	591303	746862416	https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR154/007/SRR1542627/SRR1542627_subreads.fastq.gz	52da87974e74be945068681c53d5bbf7	657903349

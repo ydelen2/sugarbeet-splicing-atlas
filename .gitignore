@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+
+# Data and results produced on the cluster
+envs/
+conda_pkgs/
+ref/
+bulk/
+fastq/
+bam/
+results/
+qc/
+logs/
+tmp/
+*.bam
+*.bai
+*.fastq.gz
+*.fq.gz
+slurm-*.out
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

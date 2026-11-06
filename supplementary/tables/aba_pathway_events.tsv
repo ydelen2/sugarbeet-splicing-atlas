@@ -1,0 +1,9 @@
+gene	preferred_name	description	component	matched_pattern	suppa_event	event_type	n_comparisons	comparisons	groups	direction	suppa_dpsi_mean	rmats_dpsi_mean
+Bv2_030580_huft	ABI4	Ethylene-responsive transcription factor	transcription	^(ABI3|ABI4|ABI5|ABF[1-4]|AREB[1-3]|FUS3|LEC1|LEC2)$	MSTRG.7643;RI:0_Bvchr2_bp57843328:727344:728049-728182:728534:+	RI	1	imbibition_5C_432h_vs_60h	imbibition	lower	-0.132	-0.188
+Bv5_130550_uktw		Zeaxanthin epoxidase	biosynthesis	zeaxanthin epoxidase	MSTRG.31658;A5:0_Bvchr5_bp67669741:12093997-12096591:12093997-12096651:-	A5	1	cold4C_GT1_leaf	cold	higher	0.2439	0.148
+Bv5_130550_uktw		Zeaxanthin epoxidase	biosynthesis	zeaxanthin epoxidase	MSTRG.31658;SE:0_Bvchr5_bp67669741:12089932-12090245:12090390-12090504:-	SE	1	cold4C_GT1_leaf	cold	lower	-0.4404	-0.155
+Bv7_211640_mcdu	ABF2	ABSCISIC ACID-INSENSITIVE 5-like protein	any;transcription	abscisic;^(ABI3|ABI4|ABI5|ABF[1-4]|AREB[1-3]|FUS3|LEC1|LEC2)$	MSTRG.53246;RI:0_Bvchr7_bp59234145:50372259:50373739-50374152:50374299:-	RI	1	tablebeet_red_enlargement_vs_rosette	tablebeet	higher	0.1034	0.143
+Bv7_213940_oouy	AAO3	aldehyde oxidase	biosynthesis	^(ABA[1-4]|ZEP|NCED[1-9]|AAO3|ABA4)$	MSTRG.53812;A5:0_Bvchr7_bp59234145:54067474-54067571:54067474-54067802:-	A5	1	cold4C_GT1_leaf	cold	higher	0.2347	0.249
+Bv9_250000_okmn		Zeaxanthin epoxidase, chloroplastic-like	biosynthesis	zeaxanthin epoxidase	MSTRG.62460;RI:0_Bvchr9_bp53512529:1580570:1580716-1581714:1581799:-	RI	1	cold0C_GT1_leaf	cold	lower	-0.6169	-0.341
+Bv9_256170_uszh		ABSCISIC ACID-INSENSITIVE 5-like protein	any	abscisic	MSTRG.64222;A5:0_Bvchr9_bp53512529:16293039-16293471:16293039-16293540:-	A5	1	imbibition_10C_60h_vs_dry	imbibition	lower	-0.3253	-0.206
+Bv9_256170_uszh		ABSCISIC ACID-INSENSITIVE 5-like protein	any	abscisic	MSTRG.64222;SE:0_Bvchr9_bp53512529:16283313-16284390:16284499-16292097:-	SE	1	cold0C_GT1_leaf	cold	higher	0.3593	0.345

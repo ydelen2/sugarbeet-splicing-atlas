@@ -1,0 +1,28 @@
+name: bvas
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  - star=2.7.11b
+  - hisat2=2.2.1
+  - samtools=1.21
+  - fastp=0.24.0
+  - fastqc
+  - multiqc
+  - stringtie=2.2.3
+  - gffread
+  - gffcompare
+  - subread
+  - salmon=1.10.3
+  - suppa=2.4
+  - statsmodels<0.15   # SUPPA 2.4 imports multipletests from statsmodels.sandbox.stats.multicomp, removed in 0.15.0
+  - rmats=4.3.0
+  - aria2
+  - pigz
+  - seqkit
+  - bedtools
+  - pandas
+  - numpy
+  - minimap2           # long-read junction evidence (13_junction_evidence.sbatch)
+  - pydeseq2          # differential expression (12_expression.sbatch)

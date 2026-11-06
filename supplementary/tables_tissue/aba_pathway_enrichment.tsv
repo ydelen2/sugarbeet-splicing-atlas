@@ -1,0 +1,3 @@
+set	genes_with_events	pathway_genes_with_events	background_genes	pathway_genes_in_background	expected	enrichment	p_hypergeometric
+all	349	1	11929	21	0.61	1.63	0.464
+tissue	349	1	11929	21	0.61	1.63	0.464

@@ -1,0 +1,14 @@
+# share of the non-annotated form in the event PSI, median over runs with a defined PSI; Mann-Whitney p compares the PTC and no-PTC events of the same type
+event_type	non_annotated_form	n	median_of_median_share	minor_form_fraction	mann_whitney_p
+SE	PTC	276	0.1748	0.9348	0.00129
+SE	no PTC	64	0.2544	0.7344	0.00129
+A3	PTC	340	0.2545	0.8382	0.00273
+A3	no PTC	89	0.3035	0.7191	0.00273
+A5	PTC	199	0.1968	0.9146	0.000569
+A5	no PTC	37	0.3681	0.7568	0.000569
+MX	PTC	2	0.2812	1.0	1
+MX	no PTC	2	0.5568	0.5	1
+SE+A3+A5+MX	PTC	817	0.2068	0.8898	1.15e-08
+SE+A3+A5+MX	no PTC	192	0.3098	0.7292	1.15e-08
+RI	PTC	268	0.313	0.75	2.63e-06
+RI	no PTC	43	0.7736	0.3721	2.63e-06

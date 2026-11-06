@@ -1,0 +1,3 @@
+comparison_id	study	subset	group_column	reference	test	note
+cold_GT1	PRJNA748559	genotype=GT1	condition	control	cold	leaf, 15 weeks, 0 C versus 20 C, 3 vs 3, all libraries reverse-stranded
+sclerotinia	PRJNA574280	-	condition	control	sclerotinia	leaf, lesion periphery versus uninfected, 3 vs 3; 59 to 69 percent of reads in infected samples are fungal

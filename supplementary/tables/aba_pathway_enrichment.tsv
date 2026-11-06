@@ -1,0 +1,9 @@
+set	genes_with_events	pathway_genes_with_events	background_genes	pathway_genes_in_background	expected	enrichment	p_hypergeometric
+all	1738	6	12464	23	3.21	1.87	0.0902
+aphano	156	0	12464	23	0.29	0.0	1
+bctv	29	0	12464	23	0.05	0.0	1
+cold	958	4	12464	23	1.77	2.26	0.0955
+imbibition	554	2	12464	23	1.02	1.96	0.273
+sclerotinia	19	0	12464	23	0.04	0.0	1
+tablebeet	524	1	12464	23	0.97	1.03	0.628
+transgenic	89	0	12464	23	0.16	0.0	1

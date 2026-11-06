@@ -1,0 +1,5 @@
+runs read 464; expressed-set junctions neither annotated nor pooled: 10818
+motif: GT-AG 10261 (94.85%), GC-AG 419 (3.87%), AT-AC 135 (1.25%), not in SJ.out.tab 3 (0.03%)
+runs with at least one unique read: median 6.0, 0 runs 918, 1 run 1557, 2-8 runs 4110, 9 or more runs 4233
+runs with at least 3 unique reads: 0 runs 2635, 1-8 runs 8059, 9 or more 124
+unique reads summed over runs: median 16.0, 10th percentile 1

@@ -1,0 +1,724 @@
+comparisons: 40
+comparisons per group: aphano 16, bctv 6, cold 6, imbibition 7, sclerotinia 1, tablebeet 2, transgenic 2
+
+== event concordance per comparison (all types pooled) ==
+comparison	testable	matched	suppa_nominal	suppa_bh	rmats	both	both_same_dir	higher	lower
+aphano_G1_30hpi_01_7_6	25091	10328	149	4	798	15	15	11	4
+aphano_G1_30hpi_Arhill2012	24825	11185	110	5	1203	8	8	2	6
+aphano_G1_30hpi_Hokkaido	24290	6002	851	5	732	15	12	7	5
+aphano_G1_6hpi_01_7_6	24742	8535	251	1	862	9	9	2	7
+aphano_G1_6hpi_Arhill2012	26290	13513	275	4	779	3	3	2	1
+aphano_G1_6hpi_Hokkaido	22782	5901	418	2	935	9	9	4	5
+aphano_G12_30hpi_Arhill2012	26325	14042	186	2	815	18	17	7	10
+aphano_G12_6hpi_Arhill2012	24447	9625	114	0	856	12	12	7	5
+aphano_G17_30hpi_Arhill2012	26777	14633	118	3	685	8	8	4	4
+aphano_G17_6hpi_Arhill2012	26082	11346	140	1	779	6	5	1	4
+aphano_G6_30hpi_01_7_6	25176	9562	628	7	1220	29	26	7	19
+aphano_G6_30hpi_Arhill2012	26661	14254	139	3	754	6	5	3	2
+aphano_G6_30hpi_Hokkaido	24875	8536	83	1	884	7	6	3	3
+aphano_G6_6hpi_01_7_6	26633	13110	329	2	823	21	20	8	12
+aphano_G6_6hpi_Arhill2012	26819	15156	240	7	1270	20	17	11	6
+aphano_G6_6hpi_Hokkaido	25114	9490	844	5	1606	41	36	18	18
+bctv_EL_10_14dpi	26147	14108	146	5	307	4	4	3	1
+bctv_EL_10_1dpi	26072	13734	171	3	268	2	2	2	0
+bctv_EL_10_7dpi	25514	13586	113	1	406	3	3	2	1
+bctv_FC709_2_14dpi	26091	14013	112	2	548	4	3	1	2
+bctv_FC709_2_1dpi	26145	13566	119	5	410	8	7	2	5
+bctv_FC709_2_7dpi	26200	12642	146	9	355	9	9	2	7
+cold4C_GT1_leaf	27644	16040	1136	31	4797	529	526	335	191
+cold4C_GT1_taproot	27001	14260	446	8	4138	189	184	93	91
+cold4C_GT2_taproot	27525	15952	766	16	4026	254	248	103	145
+cold4C_GT3_leaf	26767	15038	621	12	4562	287	282	145	137
+cold4C_GT3_taproot	27677	17108	555	7	4908	237	233	144	89
+cold0C_GT1_leaf	26975	14217	1356	21	5329	657	648	309	339
+imbibition_5C_vs_10C_60h	25594	7629	355	9	740	48	48	33	15
+imbibition_5C_160h_vs_60h	25983	8413	286	7	601	31	31	19	12
+imbibition_5C_272h_vs_60h	26106	8381	493	15	1157	100	99	70	29
+imbibition_5C_432h_vs_60h	26088	8394	734	23	1690	220	214	140	74
+imbibition_5C_272h_vs_10C_82h	26335	7996	521	11	778	113	110	82	28
+imbibition_10C_82h_vs_60h	25870	7679	205	13	224	5	5	2	3
+imbibition_10C_60h_vs_dry	24813	6529	1408	45	2109	425	416	293	123
+tablebeet_red_enlargement_vs_rosette	26524	13188	891	14	2237	287	281	175	106
+tablebeet_yellow_enlargement_vs_rosette	26297	12535	2024	20	2813	455	437	268	169
+transgenic_S3_vs_WT	22926	5610	414	70	1103	35	34	15	19
+transgenic_S6_vs_WT	24269	7573	1246	59	1359	82	78	46	32
+sclerotinia	20006	2471	303	7	248	22	21	14	7
+
+== per event type (sum over comparisons; Pearson range over comparisons) ==
+type	testable	matched	suppa_nominal	suppa_bh	rmats	both	both_same_dir	higher	lower	pearson_min	pearson_max	pearson_negative
+SE	206499	107328	3594	86	18915	1168	1155	620	535	0.262	0.649	0
+A3	377836	146006	6735	161	14522	1163	1139	714	425	0.312	0.677	0
+A5	205074	77125	4128	83	8924	765	746	433	313	0.297	0.666	0
+RI	231224	113133	4848	132	13540	1100	1061	611	450	0.213	0.626	0
+MX	6865	2288	137	3	4213	37	30	17	13	0.042	0.744	0
+events significant in both methods: 4233; same direction: 4131 (97.6 percent)
+
+== per group and type: high-confidence events (higher/lower in test) ==
+aphano	A3	45	24/21
+aphano	A5	40	18/22
+aphano	MX	4	2/2
+aphano	RI	87	41/46
+aphano	SE	32	12/20
+bctv	A3	9	4/5
+bctv	A5	7	2/5
+bctv	MX	0	0/0
+bctv	RI	8	4/4
+bctv	SE	4	2/2
+cold	A3	602	385/217
+cold	A5	383	211/172
+cold	MX	18	13/5
+cold	RI	501	258/243
+cold	SE	617	262/355
+imbibition	A3	276	186/90
+imbibition	A5	147	90/57
+imbibition	MX	1	1/0
+imbibition	RI	242	192/50
+imbibition	SE	257	170/87
+sclerotinia	A3	2	2/0
+sclerotinia	A5	10	6/4
+sclerotinia	MX	0	0/0
+sclerotinia	RI	6	4/2
+sclerotinia	SE	3	2/1
+tablebeet	A3	170	92/78
+tablebeet	A5	142	96/46
+tablebeet	MX	6	1/5
+tablebeet	RI	181	96/85
+tablebeet	SE	219	158/61
+transgenic	A3	35	21/14
+transgenic	A5	17	10/7
+transgenic	MX	1	0/1
+transgenic	RI	36	16/20
+transgenic	SE	23	14/9
+
+== distinct high-confidence events ==
+distinct events: 2297; by type: A3 644, A5 408, MX 15, RI 622, SE 608
+single reference gene 2035, several 143, none 119; without eggNOG description 280
+reference genes with at least one high-confidence event: 1738
+events by number of comparisons: 1: 1411, 2: 451, 3: 212, 4: 83, 5: 61, 6: 43, 7: 17, 8: 10, 9: 5, 10: 2, 11: 1, 12: 1
+events in at least 4 comparisons: 223; mixed direction: 243
+  aphano: 169 distinct events, 156 reference genes
+  bctv: 27 distinct events, 29 reference genes
+  cold: 1260 distinct events, 958 reference genes
+  imbibition: 687 distinct events, 554 reference genes
+  sclerotinia: 21 distinct events, 19 reference genes
+  tablebeet: 609 distinct events, 524 reference genes
+  transgenic: 98 distinct events, 89 reference genes
+cold: events by number of cold comparisons: 1: 810, 2: 234, 3: 113, 4: 41, 5: 32, 6: 30
+cold core (all six cold comparisons): 30 events, 27 reference genes, mixed direction 5
+  A5	higher	Bv1_012100_epto	belongs to the protein kinase superfamily	Pkinase
+  RI	higher	Bv2_039310_rrem	tocopherol cyclase	Tocopherol_cycl
+  SE	higher	Bv2_056900_eqiq	Peptidyl-prolyl cis-trans isomerase	Pro_isomerase
+  A5	higher	Bv3_070470_tqet	Autophagy-related protein 3	Autophagy_C,Autophagy_N,Autophagy_act_C
+  SE	higher	Bv3_082620_jjru	RNA-binding protein	zf-U1
+  A3	higher	Bv4_090790_wcty	lysine-specific demethylase	Cupin_8
+  SE	higher	Bv4_098090_ehpi,Bv4_098100_utsf	L-cysteine | chloroplast organization	Aminotran_5 | 
+  SE	higher	Bv4_103830_mnss	Protein of unknown function (DUF3245)	DUF3245
+  SE	higher	Bv4_103830_mnss	Protein of unknown function (DUF3245)	DUF3245
+  SE	higher	Bv4_118880_znsj	Acid phosphatase vanadium-dependent haloperoxidase-related protein	DUF212
+  SE	higher	Bv5_128280_qdpw		
+  RI	higher	Bv5_148720_wosx	Pentatricopeptide repeat-containing protein	PPR,PPR_2,PPR_3
+  SE	higher	Bv5_152330_qfsa	mediator of RNA polymerase II transcription subunit	
+  A5	higher	Bv6_161490_hofd	B2 protein-like	Dev_Cell_Death
+  RI	higher	Bv8_235320_ozrx	RNA-binding protein with multiple splicing	RRM_1
+  SE	lower	Bv1_003800_cdft	adenylyltransferase	CTP_transf_like,Myb_DNA-bind_4
+  RI	lower	Bv1_018170_rzko	Gigantea-like	
+  RI	lower	Bv4_102740_goqc	light-inducible protein	bZIP_1,bZIP_C
+  A3	lower	Bv4_116250_nehd	Autophagy-related protein	BCAS3,WD40
+  RI	lower	Bv4_118660_hoty	Splicing factor, suppressor of white-apricot homolog	DRY_EERY,Surp
+  SE	lower	Bv4_118660_hoty	Splicing factor, suppressor of white-apricot homolog	DRY_EERY,Surp
+  SE	lower	Bv5_148840_tegh	sirohydrochlorin ferrochelatase	CbiX
+  A3	lower	Bv5_150860_imuf	tRNA(His) guanylyltransferase	Thg1,Thg1C
+  A3	lower	Bv6_185560_dyjc	Involved in the early part of the secretory pathway	DUF1242
+  SE	lower	Bv8_248520_jydq	U4 U6.U5 small nuclear ribonucleoprotein 27 kDa	DUF1777
+  A3	mixed	Bv1_002030_txmr	Protein LHY-like isoform X1	Myb_DNA-binding
+  SE	mixed	Bv2_036300_kios	Nuclear transcription factor Y subunit	CBFB_NFYA
+  A3	mixed	Bv4_099820_rehw		
+  SE	mixed	Bv5_144750_awat	histone deacetylase	Hist_deacetyl
+  SE	mixed	Bv5_150860_imuf	tRNA(His) guanylyltransferase	Thg1,Thg1C
+
+== consequences ==
+location: CDS 1549, UTR 314, none 434
+  SE: 608 events, CDS 406, UTR 66, frame preserved in CDS 141 (34.7 percent)
+  A3: 644 events, CDS 472, UTR 70, frame preserved in CDS 149 (31.6 percent)
+  A5: 408 events, CDS 267, UTR 61, frame preserved in CDS 92 (34.5 percent)
+  RI: 622 events, CDS 393, UTR 115, frame preserved in CDS 157 (39.9 percent)
+  MX: 15 events, CDS 11, UTR 2, frame preserved in CDS 8 (72.7 percent)
+frame preserved in CDS, SE+A3+A5+RI: 539 of 1538 (35.0 percent), two-sided binomial test against one third p = 0.16
+retained introns in CDS: stop codon in frame yes 277, no 37, undetermined 79
+
+== premature stop codons and NMD features (both forms on the annotated gene models) ==
+  SE: CDS events 406, PTC in form 1 166, form 2 110, both 0, none 64, unresolved 66; PTC form with NMD features 253 of 276; PTC form higher in test 175, lower 66
+  A3: CDS events 472, PTC in form 1 235, form 2 105, both 0, none 89, unresolved 43; PTC form with NMD features 331 of 340; PTC form higher in test 243, lower 66
+  A5: CDS events 267, PTC in form 1 153, form 2 46, both 0, none 37, unresolved 31; PTC form with NMD features 189 of 199; PTC form higher in test 139, lower 45
+  RI: CDS events 393, PTC in form 1 242, form 2 26, both 0, none 43, unresolved 82; PTC form with NMD features 259 of 268; PTC form higher in test 180, lower 56
+  MX: CDS events 11, PTC in form 1 1, form 2 1, both 0, none 2, unresolved 7; PTC form with NMD features 2 of 2; PTC form higher in test 1, lower 0
+  all CDS events with a PTC in one form: 1085, with NMD features 1034; junction rule 0, long 3' UTR 0
+  RI cross-check with ri_ptc: 267 of 272 agree
+
+== Pfam domains touched by the coding events ==
+  frame-preserving: 547 CDS events, placed 477, overlapping a domain 237 (SE 68, A3 62, A5 44, RI 60, MX 3)
+  frame-shifting: 1002 CDS events, placed 866, overlapping a domain 556 (SE 152, A3 187, A5 108, RI 108, MX 1)
+  frame-preserving events placed and reconstructed: 467
+    region with an in-frame stop codon (form 1 truncated): 237 events (median region 66 residues), at or within a domain 151; events per domain: RRM_1 7, PK_Tyr_Ser-Thr 6, Pkinase 6, Amino_oxidase 3, Yippee-Mis18 3, DUF212 2, KR 2, adh_short_C2 2, adh_short 2, Mito_carr 2
+    stop codon only in the excluding form: 3 events (median region 4 residues), at or within a domain 1; events per domain: ECH_1 1, ECH_2 1
+    complete reading frame in both forms (in-frame insertion or deletion): 227 events (median region 14 residues), at or within a domain 79; events per domain: RRM_1 3, UCH 3, K-box 2, LRR_8 2, LRR_1 2, HMG_box 2, HMG_box_2 2, HLH 2, NOT1_connector 2, ARM_Cnot1 2
+  frame-preserving events at or within a domain: event type, gene, stop codon form, aa interval, domains, groups, description
+    A3	Bv1_011630_sqeh	1	136-136	Rad17(35-183):1;DNA_pol3_delta2(56-200):1;AAA(76-199):1	imbibition	Replication factor C subunit
+    A3	Bv2_034090_jmta	1	134-134	Hydrolase_4(80-327):1;Abhydrolase_1(81-325):1;Abhydrolase_6(83-331):1	cold,tablebeet	Alpha/beta hydrolase family
+    A3	Bv2_042850_mnuh	1	47-47	FAM32A(3-89):1	imbibition,tablebeet	FAM32A-like
+    A3	Bv2_043760_fzwq	1	101-101	MIP(1-227):1	tablebeet	Belongs to the MIP aquaporin (TC 1.A.8) family
+    A3	Bv2_044170_xqwm	1	108-108	DUF212(60-250):1	cold	Divergent PAP2 family
+    A3	Bv2_051650_kfhz	1	88-88	DUF3598_N(69-250):1	cold	Domain of unknown function (DUF3598)
+    A3	Bv3_064140_rcph	1	247-247	PP2C(59-338):1	cold	phosphatase 2C
+    A3	Bv3_073600_axok	1	252-252	NIF(168-316):1	tablebeet	import inner membrane translocase subunit
+    A3	Bv3_087410_wxwc	1	630-630	TPR_24(564-676):1;PPR_long(591-739):1;PPR_2(613-662):1;PPR(616-646):1	cold	Pentatricopeptide repeat-containing protein
+    A3	Bv4_093360_fono	1	235-235	Glyco_hydro_1(95-560):1	tablebeet	Belongs to the glycosyl hydrolase 1 family
+    A3	Bv4_095800_ricr	1	208-208	CYRIA-B_Rac1-bd(53-270):1	cold	atsra1,klk,pir,pir121,pirp,sra1
+    A3	Bv4_111400_omnk	1	37-37	Glyco_tranf_2_3(9-230):1;Glycos_transf_2(13-182):1;Glyco_tranf_2_2(13-126):1	imbibition	dolichol-phosphate mannosyltransferase
+    A3	Bv4_115500_xpmn	1	100-100	Motile_Sperm(87-199):1	cold	Vesicle-associated protein
+    A3	Bv5_124010_qisp	1	71-71	Mito_carr(39-130):1	cold,imbibition	Belongs to the mitochondrial carrier (TC 2.A.29) family
+    A3	Bv5_130280_ocde	1	138-138	Nudix_hydro(78-157):1	cold	Nudix hydrolase
+    A3	Bv5_148710_reix	1	35-35	Zn_ribbon_RPB9(1-35):1	cold	DNA-dependent RNA polymerase catalyzes the transcription of 
+    A3	Bv5_148960_fikw	1	180-180	tRNA-synt_1d(109-460):1	cold	Belongs to the class-I aminoacyl-tRNA synthetase family
+    A3	Bv5_150650_qoxm	1	174-174	Fumble(77-422):1	cold	Catalyzes the phosphorylation of pantothenate the first step
+    A3	Bv5_151800_sxgg	1	268-268	SBF(141-321):1	cold	sodium metabolite cotransporter BASS3
+    A3	Bv6_159660_edfy	1	196-196	Vps35(12-749):1	imbibition,tablebeet	Plays a role in vesicular protein sorting
+    A3	Bv6_160110_prrx	1	279-279	Pkinase(122-382):1;PK_Tyr_Ser-Thr(122-379):1;Kdo(141-284):1	cold	Calcium-dependent protein kinase
+    A3	Bv6_164580_jtuw	1	142-142	Nuc_sug_transp(26-323):1;PUNUT(69-333):1	tablebeet	Cmp-sialic acid transporter
+    A3	Bv6_172590_npsu	1	100-100	Lactamase_B_3(95-199):1	imbibition,tablebeet	Metallo-hydrolase oxidoreductase superfamily protein
+    A3	Bv6_173020_npsj	1	329-329	Glyco_hydro_31_2nd(320-693):1	cold	Belongs to the glycosyl hydrolase 31 family
+    A3	Bv6_186500_jwoh	1	149-149	Glyco_transf_29(132-270):1	tablebeet	CAZy family GT29
+    A3	Bv6_189840_tfuz	1	136-136	TPR_IPO5(91-251):1	imbibition	Importin beta-2 subunit family protein
+    A3	Bv7_194200_shwg	1	95-95	UreD(2-291):1	tablebeet	urease accessory protein
+    A3	Bv7_204740_qudc	1	275-275	WD40(237-275):1	cold,imbibition,tablebeet	WD repeat-containing protein
+    A3	Bv7_210480_mnog	1	314-314	Cation_efflux(118-328):1	cold	metal tolerance protein
+    A3	Bv8_226500_hrqa	1	165-165	DUF3615(156-247):1	imbibition	Transcriptional regulator
+    A3	Bv8_233620_dttq	1	208-208	Aldo_ket_red(16-305):1	cold	Aldo-keto reductase-like isoform X1
+    A3	Bv8_235760_judk	1	64-64	ADH_N(40-171):1	cold	Alcohol dehydrogenase-like
+    A3	Bv8_243570_sxin	1	212-212	MFS_1(49-418):1	cold	anion transporter 6 chloroplastic
+    A3	Bv8_244560_xaed	1	62-62	Exo_endo_phos(8-286):1	cold,tablebeet	hemolysis in other organism
+    A3	Bv8_246020_uooi	1	111-111	ECH_1(56-305):1;ECH_2(60-410):1	cold	Belongs to the enoyl-CoA hydratase isomerase family
+    A3	Bv9_256680_swfh	1	122-122	Pyr_redox_2(59-394):1	cold	External alternative NAD(P)H-ubiquinone oxidoreductase
+    A5	Bv1_010420_nkzj	1	427-427	AAA_lid_3(415-457):1	imbibition	Belongs to the AAA ATPase family
+    A5	Bv1_027160_cfdu	1	81-81	His_Phos_1(18-103):1	cold	Phosphoglycerate mutase-like protein
+    A5	Bv2_035280_uqhe	1	85-85	RCC1_2(62-91):1;RCC1(78-127):1	cold,tablebeet	regulator of chromosome condensation (RCC1) family protein
+    A5	Bv2_049330_xryf	1	116-116	SDR(7-264):1;adh_short(13-216):1;KR(13-137):1;adh_short_C2(19-262):1	cold,imbibition	Peroxisomal 2,4-dienoyl-CoA
+    A5	Bv3_069660_zhjw	1	130-130	DNA_photolyase(48-183):1	cold	DNA photolyase
+    A5	Bv3_072940_jekt	1	78-78	Hydrolase_6(56-162):1	tablebeet	Haloacid dehalogenase-like hydrolase
+    A5	Bv3_086460_chhy	1	286-286	DOG1(264-290):1	cold	transcription factor
+    A5	Bv4_089870_tixd	1	75-75	RRM_1(39-109):1	imbibition	splicing factor
+    A5	Bv4_093550_espo	1	309-309	LCAT(50-400):1	cold	Phospholipase A(1)
+    A5	Bv4_116620_qpdc	1	324-324	RabGAP-TBC(158-339):1;RabGap-TBC_2(205-331):1	cold	TBC1 domain family member
+    A5	Bv4_118670_xuag	1	208-208	VPS35L_N(115-388):1	cold	UPF0505 protein
+    A5	Bv5_130550_uktw	1	78-78	FAD_binding_3(57-402):1;DAO(59-127):1;FAD_binding_2(59-103):1;Lycopene_cycl(59-254):1;NAD_binding_8(62-112):1	cold	Zeaxanthin epoxidase
+    A5	Bv5_139610_xqdr	1	346-346	EDR1_CTR1_ARMC3_pept(156-360):1	cold	serine threonine-protein kinase
+    A5	Bv6_159040_mndf	1	191-191	FAD_binding_4(146-285):1	cold,tablebeet	D-2-hydroxyglutarate dehydrogenase
+    A5	Bv6_166900_wtpd	1	166-166	RRM_1(140-210):1	cold	U1 small nuclear ribonucleoprotein 70
+    A5	Bv6_167450_fria	1	235-235	OST48_N(25-288):1	cold	Essential subunit of the N-oligosaccharyl transferase (OST) 
+    A5	Bv6_184530_oqyr	1	109-109	Pkinase(86-364):1;PK_Tyr_Ser-Thr(87-359):1	cold	belongs to the protein kinase superfamily
+    A5	Bv7_198940_ynwe	1	158-158	efThoc1(81-510):1	cold	THO complex subunit
+    A5	Bv7_204140_nftu	1	250-250	Suf(142-312):1;HAT_PRP39_N(145-309):1;HAT_Syf1_CNRKL1_N(149-298):1	tablebeet	pre-mRNA-processing factor
+    A5	Bv7_204590_dxyz	1	225-225	uDENN(176-254):1	cold	DENN (AEX-3) domain-containing protein
+    A5	Bv7_213940_oouy	1	611-611	Ald_Xan_dh_C(610-720):1	cold	aldehyde oxidase
+    A5	Bv7_218100_nahy	1	650-650	Peptidase_M16_M(456-742):1	tablebeet	Belongs to the peptidase M16 family
+    A5	Bv8_223900_nksk	1	48-48	Yippee-Mis18(13-108):1	cold	Belongs to the yippee family
+    A5	Bv8_234280_acum	1	329-329	NAD_binding_11(223-350):1	tablebeet	Belongs to the 3-hydroxyisobutyrate dehydrogenase family
+    A5	Bv8_242160_cokp	1	137-137	YfbR-like(38-199):1;HD_3(42-204):1;HD(63-167):1	tablebeet	HD domain-containing protein
+    A5	Bv9_250310_sfsf	1	154-154	Zn_ribbon_RanBP(144-175):1	imbibition	Transcription initiation factor TFIID subunit
+    A5	Bv9_269730_jrfd	1	36-36	RRM_1(8-78):1	imbibition,tablebeet	glycine-rich RNA-binding
+    A5	Bv9_272640_mpwf	1	205-205	CTP_transf_1(47-378):1	imbibition	May be involved in the synthesis of minor phospholipids and 
+    RI	Bv1_021300_rfny	1	411-411	PFK(88-456):1	tablebeet	Regulatory subunit of pyrophosphate--fructose 6- phosphate 1
+    RI	Bv2_036510_jxqe	1	152-152	SpoU_methylase(100-250):1	imbibition	SpoU rRNA Methylase family
+    RI	Bv2_038140_kkta	1	323-323	Pkinase(148-419):1;PK_Tyr_Ser-Thr(148-418):1	cold,tablebeet	belongs to the protein kinase superfamily
+    RI	Bv2_039310_rrem	1	292-292	Tocopherol_cycl(109-463):1	cold	tocopherol cyclase
+    RI	Bv2_039490_asns	1	114-114	RNase_PH(13-133):1	cold,imbibition	Exosome complex exonuclease RRP46 homolog
+    RI	Bv2_043160_irtj	1	49-49	GGACT(19-131):1	tablebeet	Belongs to the 'GDSL' lipolytic enzyme family | AIG2-like pr
+    RI	Bv2_050760_feww	1	247-247	KH-I_KHDC4-BBP(233-308):1	cold,imbibition	Protein RIK isoform X1
+    RI	Bv2_052410_acyp	1	308-308	RRM_1(298-368):1	cold	Multiple RNA-binding domain-containing protein
+    RI	Bv3_067640_smaq	1	49-49	GH5_mannosidase(41-167):1;Cellulase(43-167):1	cold	Outer envelope protein | Belongs to the glycosyl hydrolase 5
+    RI	Bv3_089340_rwfr	1	384-384	tRNA-synt_1g(21-415):1	cold	Belongs to the class-I aminoacyl-tRNA synthetase family
+    RI	Bv4_089650_eyof	1	8-8	Med13_N(1-337):1	cold	Component of the Mediator complex, a coactivator involved in
+    RI	Bv4_090790_wcty	1	266-266	Cupin_8(175-404):1	cold,imbibition	lysine-specific demethylase
+    RI	Bv4_091500_rjoj	1	165-165	Epimerase(12-257):1;3Beta_HSD(13-256):1;GDP_Man_Dehyd(13-286):1;NAD_binding_4(14-231):1	bctv	cinnamoyl-CoA reductase 1-like
+    RI	Bv4_097950_spza	1	59-59	UCP010056(2-89):1	cold	
+    RI	Bv4_104980_oquw	1	217-217	CbiQ(86-335):1	cold	Protein ABCI12 chloroplastic
+    RI	Bv4_105840_kkaw	1	45-45	SBDS_N(16-103):1	cold	Ribosome maturation protein
+    RI	Bv4_106870_dwsd	1	1431-1431	Glyco_transf_24(1334-1601):1;Glyco_transf_8(1337-1570):1	cold	UDP-glucose glycoprotein
+    RI	Bv4_111030_kszs	1	217-217	Lactamase_B(58-231):1	tablebeet	Persulfide dioxygenase ETHE1 homolog
+    RI	Bv4_118930_fasm	1	87-87	ThiF(74-310):1	aphano	Plays a central role in 2-thiolation of mcm(5)S(2)U at tRNA 
+    RI	Bv5_126740_xwqe	1	184-184	DUF7054(119-202):1	cold	At4g22758-like
+    RI	Bv5_127450_qjgo	1	191-191	UVB_sens_prot(102-346):1	cold	Protein root UVB sensitive
+    RI	Bv5_129940_tcux	1	177-177	Acyl-CoA_dh_M(138-251):1	cold	Belongs to the acyl-CoA oxidase family
+    RI	Bv5_135840_egqf	1	41-41	EAF(19-119):1	imbibition	ELL-associated factor
+    RI	Bv5_142000_pjpi	1	74-74	DnaJ(48-104):1	imbibition	Chaperone protein dnaJ 8
+    RI	Bv5_150210_przj	1	89-89	Pkinase(63-336):1;PK_Tyr_Ser-Thr(63-337):1	transgenic	serine threonine-protein kinase
+    RI	Bv5_150480_rsox	1	259-259	CASP_dom(169-305):1;MARVEL(173-312):1	tablebeet	Belongs to the Casparian strip membrane proteins (CASP) fami
+    RI	Bv6_156860_dycw	1	209-209	2OG-FeII_Oxy(187-289):1	cold,imbibition,transgenic	Belongs to the iron ascorbate-dependent oxidoreductase famil
+    RI	Bv6_158390_diit	1	352-352	Amino_oxidase(29-393):1	tablebeet	Pyridine nucleotide-disulfide oxidoreductase domain-containi
+    RI	Bv6_160650_tkyo	1	316-316	OPT(33-652):1	aphano	metal-nicotianamine transporter YSL6
+    RI	Bv6_170220_tzop	1	113-113	Hydrolase_4(65-194):1;Abhydrolase_1(70-183):1	tablebeet	Alpha beta hydrolase domain-containing protein
+    RI	Bv6_178070_gkuu	1	87-87	MACPF(10-326):1	aphano,transgenic	MACPF domain-containing protein
+    RI	Bv7_190610_yxaq	1	242-242	DNA_topoisoIV(4-424):1	cold,imbibition	Control of topological states of DNA by transient breakage a
+    RI	Bv7_203890_txoa	1	33-33	MOSC_N(5-133):1	imbibition	molybdenum cofactor sulfurase family protein
+    RI	Bv7_206310_cfuw	1	435-435	NPH3(202-462):1	tablebeet	Belongs to the NPH3 family
+    RI	Bv7_206660_ydxs	1	247-247	Ribosomal_L4(84-273):1	cold,tablebeet	Ribosomal protein L4
+    RI	Bv7_211170_agpd	1	418-418	Amino_oxidase(107-549):1	imbibition	Phytoene dehydrogenase, chloroplastic
+    RI	Bv7_212110_jxgj	1	21-21	LSM(13-81):1	cold	U6 snRNA-associated Sm-like protein
+    RI	Bv7_218560_tefh	1	270-270	SBF_like(92-411):1;SBF(125-306):1	cold	SBF-like CPA transporter family (DUF4137)
+    RI	Bv8_221650_eagm	1	83-83	Yippee-Mis18(12-119):1	cold	Belongs to the yippee family
+    RI	Bv8_223900_nksk	1	48-48	Yippee-Mis18(13-146):1	cold	Belongs to the yippee family
+    RI	Bv8_227100_fnce	1	539-539	Pkinase(523-779):1;PK_Tyr_Ser-Thr(523-794):1	cold,tablebeet	Serine threonine-protein kinase
+    RI	Bv8_236030_iiqo	1	157-157	MTR4_beta-barrel(75-166):1	imbibition,tablebeet	Superkiller viralicidic activity 2-like 2
+    RI	Bv8_236060_tadf	1	184-184	PH_TRF2_HOY1(114-232):1	cold	
+    RI	Bv8_242660_aptk	1	98-98	DUF1068(25-205):1	imbibition,tablebeet	Protein of unknown function (DUF1068)
+    RI	Bv8_244000_nohh	1	100-100	SNAPC1(6-201):1	imbibition	Small nuclear RNA activating complex (SNAPc) subunit SNAP43 
+    RI	Bv9_250480_eijp	1	110-110	Cyt-b5(38-136):1	cold	Belongs to the cytochrome b5 family
+    RI	Bv9_250620_zcfo	1	178-178	DAO(29-292):1;Amino_oxidase(37-458):1	cold,tablebeet	Polyamine oxidase
+    RI	Bv9_260190_ptez	1	311-311	PC-Esterase(185-467):1	cold	protein trichome birefringence-like
+    RI	Bv9_267310_dupr	1	45-45	NMO(3-82):1	cold,tablebeet	Nitronate monooxygenase
+    RI	Bv9_268850_hxwj	1	241-241	SQS_PSY(44-316):1	cold,tablebeet	squalene
+    RI	Bv9_269240_pddk	1	140-140	PHD_UBR7-like(138-195):1	imbibition	Chromatin structure-remodeling complex subunit RSC1-like
+    RI	Bv9_270940_cejp	1	57-57	Pro_isomerase(7-172):1	cold,tablebeet	Peptidyl-prolyl cis-trans isomerase | 
+    SE	Bv1_002650_fexw	1	36-36	RRM_1(4-65):1	cold,imbibition	splicing factor
+    SE	Bv1_003480_unja	1	124-124	Mito_carr(37-128):1	tablebeet	Belongs to the mitochondrial carrier (TC 2.A.29) family
+    SE	Bv1_008690_kgfr	1	281-281	KH_1(227-297):1	imbibition	poly(rC)-binding protein
+    SE	Bv1_010790_tifw	1	207-207	RrnaAD(65-336):1	imbibition	Belongs to the class I-like SAM-binding methyltransferase su
+    SE	Bv1_013700_rmjp	1	95-95	BTB_2(9-101):1	tablebeet	FH protein interacting protein
+    SE	Bv2_032430_twzr	1	93-93	adh_short(12-207):1;KR(12-190):1;Epimerase(14-214):1;adh_short_C2(18-254):1	tablebeet	Tropinone reductase homolog
+    SE	Bv2_035840_aoas	1	71-71	GIY-YIG(45-126):1	imbibition	Structure-specific endonuclease subunit
+    SE	Bv2_036040_hznt	1	197-197	UPF0114(92-231):1	tablebeet	Uncharacterized protein family, UPF0114
+    SE	Bv2_042850_mnuh	1	47-47	FAM32A(3-89):1	imbibition,tablebeet	FAM32A-like
+    SE	Bv2_052140_wpqy	1	131-131	RRM_5(99-213):1	imbibition	polypyrimidine tract-binding protein
+    SE	Bv2_053010_gghn	1	167-167	Band_7(8-182):1	cold	Hypersensitive-induced response protein
+    SE	Bv2_054560_ncak	1	98-98	FMN_red(11-158):1;Flavodoxin_2(12-136):1	bctv	nadph quinone
+    SE	Bv2_059320_irrp	1	366-366	Prenyltrans(41-429):1	tablebeet	Protein farnesyltransferase subunit
+    SE	Bv3_063830_zhhh	1	89-89	BRF1(39-133):1	cold	Brf1-like TBP-binding domain
+    SE	Bv3_065400_ocrf	1	180-180	DUF819(93-455):1	tablebeet	Protein of unknown function (DUF819)
+    SE	Bv3_068140_sqpz	1	36-36	RRM_1(4-66):1	tablebeet	serine arginine-rich splicing factor
+    SE	Bv3_082390_pruc	1	75-75	RRM_1(39-109):1	aphano,cold,imbibition	splicing factor
+    SE	Bv3_089450_hxup	1	208-208	Methyltransf_28(116-390):1	cold,imbibition	Arginine methyltransferase involved in the assembly or stabi
+    SE	Bv4_098120_giui	1	100-100	Zn_SUZ12(64-133):1	tablebeet	polycomb group protein
+    SE	Bv4_100790_jrdw	1	272-272	Methyltransf_16(172-293):1	imbibition	branched-chain-amino-acid aminotransferase-like protein
+    SE	Bv4_103430_egiw	1	197-197	KH_1(152-208):1	imbibition,tablebeet	poly(rC)-binding protein
+    SE	Bv4_114570_zhzz	1	34-34	UAA(15-318):1	cold	UDP-galactose UDP-glucose transporter
+    SE	Bv4_118880_znsj	1	101-101	DUF212(26-160):1	cold	Acid phosphatase vanadium-dependent haloperoxidase-related p
+    SE	Bv5_125730_ghmz	1	151-151	PP2(121-280):1	imbibition	F-Box protein
+    SE	Bv5_140560_pkqm	1	498-498	RNB(394-690):1	cold	ribonuclease II
+    SE	Bv5_151400_qmot	1	106-106	eIF-1a(13-114):1	cold,tablebeet	RNA-binding protein
+    SE	Bv6_177830_qhfu	1	132-132	EI24(32-281):1	tablebeet	Protein EI24 homolog
+    SE	Bv6_179770_sgie	1	134-134	Mg_trans_NIPA(3-312):1	cold	Acts as a Mg(2 ) transporter. Can also transport other dival
+    SE	Bv7_192760_iioy	1	228-228	SOUL(162-282):1	cold	Heme-binding-like protein At3g10130
+    SE	Bv7_198370_eihj	1	265-265	Peptidase_M20(120-478):1;M20_dimer(256-377):1	cold,tablebeet	Allantoate
+    SE	Bv8_222720_jrnz	1	191-191	WAPL(131-753):1	cold	Wings apart-like protein regulation of heterochromatin
+    SE	Bv8_231290_ezea	1	540-540	Sec6(176-704):1	cold	exocyst complex component
+    SE	Bv8_240350_mnrg	1	146-146	TMEM192(14-235):1	tablebeet	TMEM192 family
+    SE	Bv8_247460_jnqo	1	224-224	PP2C(66-344):1	cold,tablebeet	phosphatase 2C
+    SE	Bv_277480_cxsz	1	207-207	Pkinase(25-316):1;PK_Tyr_Ser-Thr(25-311):1	tablebeet	mitogen-activated protein kinase
+    MX	Bv8_246020_uooi	2	111-128	ECH_1(56-301):18;ECH_2(60-406):18	cold,tablebeet	Belongs to the enoyl-CoA hydratase isomerase family
+    A3	Bv1_000730_wmjz	none	442-442	DUF668(383-468):1	cold	Domain of unknown function (DUF3475)
+    A3	Bv1_001830_yemc	none	954-954	Tcp11(681-1173):1	cold	T-complex protein
+    A3	Bv2_032480_xhyw	none	249-249	WD40_RLD(201-479):1;RCC1_2(234-263):1	tablebeet	ultraviolet-B receptor
+    A3	Bv2_043370_pdae	none	50-58	CBFD_NFYB_HMF(15-80):9	cold	Protein Dr1 homolog
+    A3	Bv3_062700_gfzt	none	353-357	RRM_1(328-401):5	cold,imbibition,tablebeet	Polyadenylate-binding protein-interacting protein
+    A3	Bv3_076270_ejow	none	586-634	AA_permease_C(562-612):27	cold	cationic amino acid transporter
+    A3	Bv3_081760_zoru	none	76-82	Not3(3-236):7	imbibition	transcription
+    A3	Bv4_106870_dwsd	none	653-654	Thioredoxin_14(489-753):2	cold	UDP-glucose glycoprotein
+    A3	Bv4_110740_xcrg	none	148-148	RRM_1(124-192):1	imbibition,tablebeet	Polyadenylate-binding protein-interacting protein
+    A3	Bv4_116250_nehd	none	705-708	BCAS3(615-748):4	cold,imbibition	Autophagy-related protein
+    A3	Bv4_121000_zdau	none	112-112	DUF908(84-207):1	cold	E3 ubiquitin-protein ligase
+    A3	Bv4_121640_wfaa	none	155-155	KH-I_KHDC4-BBP(152-240):1	imbibition,tablebeet	KH domain-containing protein
+    A3	Bv5_127590_ukoj	none	196-202	SYMPK_PTA1_N(101-341):7	cold	isoform X1
+    A3	Bv5_139830_cetj	none	122-122	PRA1(19-194):1	cold,imbibition	May be involved in both secretory and endocytic intracellula
+    A3	Bv6_161610_dsqx	none	422-425	Remorin_C(402-511):4	cold	Remorin family
+    A3	Bv6_165060_zzid	none	270-276	Mitofilin(56-640):7	aphano,bctv	Belongs to the MICOS complex subunit Mic60 family
+    A3	Bv6_170230_ymko	none	318-318	HSP90(270-777):1	cold,imbibition	heat shock protein
+    A3	Bv6_183190_cpog	none	144-144	JAB(40-149):1	cold	AMSH-like ubiquitin thioesterase 2
+    A3	Bv6_184940_jqqr	none	55-55	K-box(52-139):1	cold,imbibition	MADS-box protein
+    A3	Bv6_187070_hofy	none	173-176	Glyco_hydro_1(94-562):4	aphano	Beta-glucosidase 13-like
+    A3	Bv9_262800_phhx	none	19-19	Prenyltrans(4-301):1	transgenic	geranylgeranyl transferase type-2 subunit
+    A3	Bv9_271820_nrmx	none	181-587	LRR_14(93-326):146;LRR_8(184-246):63;LRR_1(211-233):23;LRR_1(235-257):23;LRR_8(360-421):62;LRR_1(361-382):22;LRR_1(386-408):23;LRR_1(410-431):22;LRR_1(459-481):23;LRR_1(483-505):23;LRR_1(508-530):23;LRR_1(552-572):21;LRR_1(574-596):14	imbibition	LRR receptor-like serine threonine-protein kinase
+    A3	Bv9_272060_ipcu	none	241-250	clamp_Gag1-like(170-289):10	imbibition	isoform X1
+    A3	Bv9_276430_mkmg	none	113-113	Arf(5-177):1;SRPRB(15-150):1;Gtr1_RagA(19-159):1;Ras(19-179):1;Roc(19-129):1	cold	Belongs to the small GTPase superfamily. Arf family
+    A5	Bv1_021520_magq	none	290-294	FmiP_Thoc5(81-438):5	cold,imbibition	Tho complex subunit
+    A5	Bv2_038040_qeqn	none	20-415	F-box(8-49):30;F-box-like(13-46):27;Beta-prop_KIB1-4(120-373):254;FBA_3(124-396):273;b-prop_At3g26010-like(126-380):255;FBA_1(134-340):207;Beta-prop_AT5G49610-like(139-378):240	imbibition	F-box domain
+    A5	Bv3_083850_jzfr	none	154-154	Myb_CC_LHEQLE(133-180):1	cold	isoform X1
+    A5	Bv4_098230_ucgn	none	142-142	Vma22_CCDC115(31-187):1	cold,imbibition	coiled-coil domain-containing protein
+    A5	Bv4_115630_hmky	none	596-596	UCH(312-789):1	tablebeet	Ubiquitin carboxyl-terminal hydrolase
+    A5	Bv4_115630_hmky	none	596-597	UCH(312-791):2	tablebeet	Ubiquitin carboxyl-terminal hydrolase
+    A5	Bv5_126800_gxyj	none	135-135	Mlf1IP(38-257):1	cold,imbibition	glycine-rich protein
+    A5	Bv5_144680_xccw	none	5-7	JAB(3-57):3	transgenic	metallopeptidase activity
+    A5	Bv5_149160_oqyp	none	156-156	5-FTHF_cyc-lig(84-293):1	aphano,transgenic	Belongs to the 5-formyltetrahydrofolate cyclo-ligase family
+    A5	Bv6_158180_fqcr	none	135-151	CNNM(16-191):17	imbibition	DUF21 domain-containing protein
+    A5	Bv6_186990_owxk	none	29-38	GRP(1-82):10	aphano,cold,transgenic	
+    A5	Bv8_234790_mdnw	none	144-151	OTU(95-209):8	cold	OTU domain-containing protein
+    A5	Bv9_273790_zimi	none	240-241	AMP-binding(121-453):2	cold	Malonate--CoA
+    MX	Bv5_153740_ggfc	none	53-72	Ribosomal_S19(52-137):20	aphano	Belongs to the universal ribosomal protein uS19 family
+    MX	Bv8_246020_uooi	none	111-132	ECH_1(56-305):22;ECH_2(60-410):22	cold,tablebeet	Belongs to the enoyl-CoA hydratase isomerase family
+    RI	Bv1_013280_shaj	none	165-165	Methyltransf_29(144-658):1	cold	methyltransferase
+    RI	Bv2_040750_ghzx	none	597-597	UCH(231-996):1	tablebeet	Ubiquitin carboxyl-terminal hydrolase
+    RI	Bv3_077940_zras	none	202-202	ThiF(53-324):1	imbibition	NEDD8-activating enzyme E1 catalytic
+    RI	Bv4_098270_igus	none	244-244	zf-C2H2_13(219-277):1	cold,tablebeet	rescue of stalled ribosome
+    RI	Bv5_124370_wmoi	none	423-423	DUF7751(373-432):1	imbibition	ATPase family
+    RI	Bv6_160430_zzra	none	252-259	UCP022260(1-304):8	transgenic	expressed protein
+    RI	Bv6_170830_onjz	none	16-16	PRK(15-187):1	aphano	Uridine-cytidine kinase
+    RI	Bv9_263900_mowd	none	280-280	Pkinase(103-281):1	imbibition	belongs to the protein kinase superfamily
+    SE	Bv1_001650_adjx	none	128-151	2-Hacid_dh(17-322):24;2-Hacid_dh_C(117-292):24;KARI_N(146-254):6;NAD_binding_2(151-268):1	cold	Belongs to the D-isomer specific 2-hydroxyacid dehydrogenase
+    SE	Bv1_004880_ayrd	none	528-562	AAA(498-628):35	cold,imbibition	Cell division control protein 48 homolog
+    SE	Bv1_006860_zrye	none	25-25	CN_hydrolase(16-243):1	cold	Carbon-nitrogen hydrolase
+    SE	Bv1_008190_psca	none	306-385	RRM_1(292-361):56	cold,imbibition	RNA recognition motif
+    SE	Bv1_009090_wxrj	none	1785-1831	ARM_Cnot1(1623-1806):22;NOT1_connector(1623-1804):20	cold	Ccr4-not transcription complex
+    SE	Bv1_009090_wxrj	none	1785-1830	ARM_Cnot1(1623-1805):21;NOT1_connector(1623-1803):19	cold	Ccr4-not transcription complex
+    SE	Bv1_016510_hdnk	none	172-210	PSS(101-382):39	cold	phosphatidylserine synthase
+    SE	Bv2_030920_guyf	none	806-806	Sec63(534-843):1	cold	ATP-dependent DNA helicase
+    SE	Bv2_037820_ryax	none	4-67	MTPAP-like_central(30-176):38	tablebeet	translation factor activity, non-nucleic acid binding
+    SE	Bv3_060080_hryd	none	144-172	HLH(141-190):29	imbibition	transcription factor
+    SE	Bv3_072330_paan	none	171-171	5_3_exonuc_N(106-279):1	imbibition	DNA polymerase I
+    SE	Bv4_095290_spug	none	73-73	zf-Di19(42-74):1	aphano,cold	protein DEHYDRATION-INDUCED 19 homolog
+    SE	Bv5_124450_hkou	none	65-91	PIAL1_N(28-206):27	cold	isoform X1
+    SE	Bv5_137580_sggp	none	87-113	Maf(9-103):17;Maf(98-230):16	tablebeet	Maf-like protein
+    SE	Bv5_142200_caad	none	149-292	DUF3537(33-420):144	cold	Protein of unknown function (DUF3537)
+    SE	Bv5_145450_zeho	none	25-110	CTP_transf_1(49-109):61	cold	May be involved in the synthesis of minor phospholipids and 
+    SE	Bv5_150860_imuf	none	485-504	Thg1C(410-527):20	cold,imbibition	tRNA(His) guanylyltransferase
+    SE	Bv6_161600_yjwu	none	76-91	Vps26(8-283):16	imbibition	Vacuolar protein sorting-associated protein
+    SE	Bv6_170130_kuop	none	121-192	Terpene_synth_C(124-365):69;Terpene_syn_C_2(162-365):31	cold	(-)-germacrene D synthase-like
+    SE	Bv6_174530_juif	none	107-128	HLH(98-146):22	imbibition	Transcription factor
+    SE	Bv6_184940_jqqr	none	110-123	K-box(52-139):14	cold,imbibition	MADS-box protein
+    SE	Bv7_208480_fgkf	none	79-114	Rhodanese(91-214):24	imbibition	Rhodanese-like domain-containing protein 11
+    SE	Bv8_231140_crmh	none	29-29	HMG_box_2(27-87):1;HMG_box(29-87):1	cold,imbibition	High mobility group B protein
+    SE	Bv8_231140_crmh	none	29-29	HMG_box_2(27-87):1;HMG_box(29-87):1	cold,imbibition	High mobility group B protein
+    SE	Bv8_231530_ajdf	none	31-54	Translin(54-126):1	tablebeet	Translin-associated protein
+    SE	Bv9_250010_edsz	none	166-192	YceD(113-228):27	cold	Uncharacterized ACR, COG1399
+    SE	Bv9_252930_taru	none	409-437	tRNA-synt_2(214-569):29	cold	asparagine--tRNA ligase, chloroplastic
+    SE	Bv9_255450_tjyt	none	181-212	IP_trans(2-249):32	imbibition	Phosphatidylinositol transfer protein
+    SE	Bv9_257200_iwkr	none	154-178	LRR_8(126-185):25;LRR_1(150-172):19;LRR_1(174-196):5	cold,tablebeet	strubbelig-receptor family
+    SE	Bv9_260240_shnt	none	220-270	Ubie_methyltran(162-347):51;Methyltransf_2(163-344):51;Methyltransf_23(171-348):51;MTS(179-322):51;Methyltransf_31(190-331):51;Methyltransf_25(195-294):51;Methyltransf_11(196-298):51;Methyltransf_12(196-296):51	cold	ubiE/COQ5 methyltransferase family
+    SE	Bv9_263410_hoaf	none	462-486	ChlI(462-576):25	imbibition	DNA repair protein
+    SE	Bv9_263480_tjqf	none	298-371	Asn_synthase(209-363):66;Asn_synthase(357-539):15	imbibition	asparagine synthetase
+
+== abscisic acid pathway genes ==
+  all: 6 of 1738 genes with events (pathway genes in background 23 of 12464, expected 3.21, p 0.0902)
+  aphano: 0 of 156 genes with events (pathway genes in background 23 of 12464, expected 0.29, p 1)
+  bctv: 0 of 29 genes with events (pathway genes in background 23 of 12464, expected 0.05, p 1)
+  cold: 4 of 958 genes with events (pathway genes in background 23 of 12464, expected 1.77, p 0.0955)
+  imbibition: 2 of 554 genes with events (pathway genes in background 23 of 12464, expected 1.02, p 0.273)
+  sclerotinia: 0 of 19 genes with events (pathway genes in background 23 of 12464, expected 0.04, p 1)
+  tablebeet: 1 of 524 genes with events (pathway genes in background 23 of 12464, expected 0.97, p 0.628)
+  transgenic: 0 of 89 genes with events (pathway genes in background 23 of 12464, expected 0.16, p 1)
+    Bv2_030580_huft	ABI4	transcription	RI	lower	imbibition	Ethylene-responsive transcription factor
+    Bv5_130550_uktw		biosynthesis	A5	higher	cold	Zeaxanthin epoxidase
+    Bv5_130550_uktw		biosynthesis	SE	lower	cold	Zeaxanthin epoxidase
+    Bv7_211640_mcdu	ABF2	any;transcription	RI	higher	tablebeet	ABSCISIC ACID-INSENSITIVE 5-like protein
+    Bv7_213940_oouy	AAO3	biosynthesis	A5	higher	cold	aldehyde oxidase
+    Bv9_250000_okmn		biosynthesis	RI	lower	cold	Zeaxanthin epoxidase, chloroplastic-like
+    Bv9_256170_uszh		any	A5	lower	imbibition	ABSCISIC ACID-INSENSITIVE 5-like protein
+    Bv9_256170_uszh		any	SE	higher	cold	ABSCISIC ACID-INSENSITIVE 5-like protein
+
+== differential expression and its overlap with differential splicing ==
+  comparison, tested, DE (up, down), DAS, population, DE and DAS, expected, p
+    aphano_G1_30hpi_01_7_6	18524	205 (136, 69)	14	11123	1	0.1	0.095
+    aphano_G1_30hpi_Arhill2012	17924	377 (124, 253)	9	10978	0	0.1	1
+    aphano_G1_30hpi_Hokkaido	17580	1030 (646, 384)	12	10827	0	0.47	1
+    aphano_G1_6hpi_01_7_6	18496	1529 (937, 592)	7	11088	1	0.39	0.328
+    aphano_G1_6hpi_Arhill2012	16868	48 (40, 8)	5	10915	0	0.01	1
+    aphano_G1_6hpi_Hokkaido	17994	623 (501, 122)	10	10679	0	0.22	1
+    aphano_G12_30hpi_Arhill2012	18295	689 (271, 418)	15	11257	0	0.36	1
+    aphano_G12_6hpi_Arhill2012	18234	993 (320, 673)	14	10959	2	0.49	0.0837
+    aphano_G17_30hpi_Arhill2012	18770	822 (536, 286)	8	11346	0	0.2	1
+    aphano_G17_6hpi_Arhill2012	17292	32 (27, 5)	5	11016	0	0.01	1
+    aphano_G6_30hpi_01_7_6	18005	1047 (697, 350)	28	11046	3	1.28	0.134
+    aphano_G6_30hpi_Arhill2012	18603	83 (7, 76)	4	11306	0	0.01	1
+    aphano_G6_30hpi_Hokkaido	18179	188 (92, 96)	8	10925	1	0.06	0.0564
+    aphano_G6_6hpi_01_7_6	17920	84 (51, 33)	16	11219	0	0.04	1
+    aphano_G6_6hpi_Arhill2012	17838	211 (90, 121)	21	11194	0	0.17	1
+    aphano_G6_6hpi_Hokkaido	17442	1258 (452, 806)	34	10876	1	1.99	0.872
+    bctv_EL_10_14dpi	17751	0 (0, 0)	3	11076	0	0.0	1
+    bctv_EL_10_1dpi	17472	1 (1, 0)	3	10986	0	0.0	1
+    bctv_EL_10_7dpi	17668	1 (0, 1)	7	10979	1	0.0	0.000546
+    bctv_FC709_2_14dpi	18189	157 (149, 8)	5	11140	0	0.03	1
+    bctv_FC709_2_1dpi	17778	0 (0, 0)	9	11031	0	0.0	1
+    bctv_FC709_2_7dpi	16826	66 (52, 14)	8	10873	0	0.02	1
+    cold4C_GT1_leaf	17599	3165 (1359, 1806)	465	11207	80	70.67	0.123
+    cold4C_GT1_taproot	18573	3841 (1712, 2129)	170	11270	25	30.9	0.903
+    cold4C_GT2_taproot	18083	3622 (1763, 1859)	214	11260	28	36.17	0.949
+    cold4C_GT3_leaf	17889	3145 (1198, 1947)	255	11161	46	38.97	0.126
+    cold4C_GT3_taproot	18583	4255 (1990, 2265)	215	11359	43	41.97	0.456
+    cold0C_GT1_leaf	18337	4799 (2072, 2727)	575	11175	123	139.39	0.956
+    imbibition_5C_vs_10C_60h	16357	3247 (1479, 1768)	49	10476	5	7.82	0.911
+    imbibition_5C_160h_vs_60h	15639	2230 (1243, 987)	26	10371	6	3.19	0.0904
+    imbibition_5C_272h_vs_60h	16760	3725 (2306, 1419)	93	10627	21	18.29	0.276
+    imbibition_5C_432h_vs_60h	16630	4454 (2454, 2000)	205	10615	48	51.63	0.747
+    imbibition_5C_272h_vs_10C_82h	16976	3983 (2077, 1906)	112	10824	17	22.37	0.922
+    imbibition_10C_82h_vs_60h	16262	818 (601, 217)	5	10551	0	0.17	1
+    imbibition_10C_60h_vs_dry	16403	6459 (3308, 3151)	380	10276	126	138.38	0.92
+    tablebeet_red_enlargement_vs_rosette	18344	5487 (2599, 2888)	276	11045	62	74.36	0.964
+    tablebeet_yellow_enlargement_vs_rosette	18173	7131 (3206, 3925)	414	10971	127	147.43	0.987
+    transgenic_S3_vs_WT	16555	923 (666, 257)	30	10231	2	1.14	0.316
+    transgenic_S6_vs_WT	17078	909 (556, 353)	75	10585	4	2.78	0.303
+    sclerotinia	17317	7813 (3545, 4268)	19	9573	8	8.2	0.623
+  over all comparisons: DAS genes in the population 3778, of them DE 781 (20.7 percent), expected 839.8; comparisons with p < 0.05: 1 of 40
+  splicing-regulator genes: 93 genes tested, DE in at least one comparison 53; DE rows by family: PRP 23, SF1 1, SR 38, SR-like 7, U2AF 14, hnRNP-like 38, other splicing factor 6, snRNP 33
+    PRP	Bv1_019300_drmd	PRP40A	imbibition_10C_60h_vs_dry	log2FC 1.162	padj 1.03e-34	DAS no
+    PRP	Bv5_154450_rdtk	SMP1	imbibition_10C_60h_vs_dry	log2FC -1.787	padj 3.44e-150	DAS no
+    PRP	Bv5_154450_rdtk	SMP1	imbibition_5C_272h_vs_60h	log2FC -1.196	padj 6.78e-80	DAS no
+    PRP	Bv5_154450_rdtk	SMP1	imbibition_5C_432h_vs_60h	log2FC -1.222	padj 1.11e-37	DAS no
+    PRP	Bv5_154450_rdtk	SMP1	sclerotinia	log2FC 1.088	padj 0.00519	DAS no
+    PRP	Bv5_154450_rdtk	SMP1	tablebeet_red_enlargement_vs_rosette	log2FC 1.664	padj 0.0261	DAS no
+    PRP	Bv5_155550_qmjn	At3g62310	imbibition_5C_272h_vs_60h	log2FC -1.557	padj 3.07e-220	DAS no
+    PRP	Bv5_155550_qmjn	At3g62310	imbibition_5C_432h_vs_60h	log2FC -1.252	padj 4.26e-58	DAS yes
+    PRP	Bv5_155550_qmjn	At3g62310	tablebeet_red_enlargement_vs_rosette	log2FC 1.126	padj 5.71e-07	DAS no
+    PRP	Bv5_155550_qmjn	At3g62310	tablebeet_yellow_enlargement_vs_rosette	log2FC 1.301	padj 3.77e-09	DAS no
+    PRP	Bv6_185830_srhh	At1g27900	cold0C_GT1_leaf	log2FC -1.519	padj 9.23e-07	DAS no
+    PRP	Bv6_185830_srhh	At1g27900	sclerotinia	log2FC -3.521	padj 5.18e-06	DAS no
+    PRP	Bv8_221050_tacw	At4g18465	cold0C_GT1_leaf	log2FC 1.093	padj 6.67e-06	DAS no
+    PRP	Bv8_221050_tacw	At4g18465	sclerotinia	log2FC 1.539	padj 3.46e-07	DAS no
+    PRP	Bv8_230420_zunm	PRP39-2	sclerotinia	log2FC -1.952	padj 0.000827	DAS no
+    PRP	Bv8_230420_zunm	PRP39-2	tablebeet_yellow_enlargement_vs_rosette	log2FC 1.224	padj 3.58e-10	DAS no
+    PRP	Bv8_239030_xwzj	At3g26560	imbibition_5C_272h_vs_60h	log2FC -1.142	padj 6.23e-73	DAS no
+    PRP	Bv8_239030_xwzj	At3g26560	imbibition_5C_432h_vs_60h	log2FC -1.155	padj 1.14e-48	DAS no
+    PRP	Bv8_245040_wwey	ESP3	cold4C_GT3_taproot	log2FC 6.050	padj 0.029	DAS no
+    PRP	Bv8_245040_wwey	ESP3	sclerotinia	log2FC 10.439	padj 9.9e-07	DAS no
+    PRP	Bv9_271670_qphu	PRP8A	imbibition_5C_272h_vs_60h	log2FC -1.115	padj 1.7e-114	DAS no
+    PRP	Bv9_271670_qphu	PRP8A	imbibition_5C_432h_vs_60h	log2FC -1.264	padj 5.54e-71	DAS no
+    PRP	Bv9_271670_qphu	PRP8A	sclerotinia	log2FC -1.493	padj 4.48e-05	DAS no
+    SF1	Bv6_165350_wqsx	SF1	imbibition_5C_272h_vs_60h	log2FC -1.125	padj 5.28e-73	DAS no
+    SR	Bv1_002220_gtmz	SR34A	imbibition_10C_60h_vs_dry	log2FC 1.141	padj 8.63e-16	DAS no
+    SR	Bv1_002220_gtmz	SR34A	sclerotinia	log2FC -1.532	padj 0.00671	DAS no
+    SR	Bv1_002220_gtmz	SR34A	tablebeet_red_enlargement_vs_rosette	log2FC -1.450	padj 8.36e-09	DAS no
+    SR	Bv1_002220_gtmz	SR34A	tablebeet_yellow_enlargement_vs_rosette	log2FC -1.274	padj 1.28e-06	DAS no
+    SR	Bv1_002650_fexw	RS31	cold0C_GT1_leaf	log2FC -1.298	padj 4.73e-06	DAS yes
+    SR	Bv1_002650_fexw	RS31	imbibition_10C_60h_vs_dry	log2FC -2.265	padj 2.04e-92	DAS yes
+    SR	Bv1_010980_dmoz	RS41	imbibition_10C_60h_vs_dry	log2FC 1.339	padj 1.06e-66	DAS yes
+    SR	Bv1_012090_usdj	RS31	aphano_G1_30hpi_Hokkaido	log2FC 1.048	padj 2.16e-07	DAS no
+    SR	Bv1_012090_usdj	RS31	imbibition_5C_432h_vs_60h	log2FC -1.168	padj 8.55e-40	DAS no
+    SR	Bv1_013560_shju	SC35	imbibition_5C_272h_vs_10C_82h	log2FC -1.010	padj 5.56e-72	DAS no
+    SR	Bv1_013560_shju	SC35	imbibition_5C_272h_vs_60h	log2FC -1.030	padj 1.29e-66	DAS no
+    SR	Bv1_013560_shju	SC35	imbibition_5C_432h_vs_60h	log2FC -1.106	padj 1e-46	DAS no
+    SR	Bv2_031940_fijm	SCL30	imbibition_10C_60h_vs_dry	log2FC -2.371	padj 6.74e-202	DAS yes
+    SR	Bv2_031940_fijm	SCL30	imbibition_5C_160h_vs_60h	log2FC -1.074	padj 3.45e-42	DAS no
+    SR	Bv2_031940_fijm	SCL30	tablebeet_red_enlargement_vs_rosette	log2FC 1.163	padj 5.64e-09	DAS no
+    SR	Bv2_042890_kyhj	RS31	imbibition_5C_272h_vs_60h	log2FC -1.025	padj 1.46e-27	DAS no
+    SR	Bv2_042890_kyhj	RS31	imbibition_5C_432h_vs_60h	log2FC -1.304	padj 5.88e-31	DAS no
+    SR	Bv3_068140_sqpz	RS41	imbibition_10C_60h_vs_dry	log2FC 2.079	padj 8.48e-146	DAS no
+    SR	Bv3_068140_sqpz	RS41	imbibition_5C_272h_vs_60h	log2FC -1.548	padj 1.63e-139	DAS yes
+    SR	Bv3_068140_sqpz	RS41	imbibition_5C_432h_vs_60h	log2FC -1.735	padj 1.58e-110	DAS yes
+    SR	Bv3_068140_sqpz	RS41	tablebeet_yellow_enlargement_vs_rosette	log2FC 1.651	padj 3.01e-09	DAS yes
+    SR	Bv3_082390_pruc	SCL33	imbibition_10C_60h_vs_dry	log2FC -5.359	padj 1.82e-272	DAS no
+    SR	Bv3_082390_pruc	SCL33	imbibition_5C_160h_vs_60h	log2FC -1.639	padj 1.81e-20	DAS yes
+    SR	Bv3_082390_pruc	SCL33	imbibition_5C_272h_vs_10C_82h	log2FC 1.956	padj 2.41e-14	DAS no
+    SR	Bv3_082390_pruc	SCL33	imbibition_5C_272h_vs_60h	log2FC -1.263	padj 1.19e-16	DAS yes
+    SR	Bv3_082390_pruc	SCL33	imbibition_5C_vs_10C_60h	log2FC 2.440	padj 1.56e-36	DAS no
+    SR	Bv3_082390_pruc	SCL33	sclerotinia	log2FC 1.892	padj 0.0268	DAS no
+    SR	Bv4_089870_tixd	SCL30A	imbibition_10C_60h_vs_dry	log2FC -1.226	padj 1.35e-44	DAS yes
+    SR	Bv4_089870_tixd	SCL30A	sclerotinia	log2FC -1.468	padj 0.000151	DAS no
+    SR	Bv6_183510_hkoy	RSZ21	cold0C_GT1_leaf	log2FC -2.033	padj 1.39e-18	DAS yes
+    SR	Bv6_183510_hkoy	RSZ21	cold4C_GT1_leaf	log2FC -1.667	padj 7.2e-12	DAS no
+    SR	Bv6_183510_hkoy	RSZ21	cold4C_GT1_taproot	log2FC -1.047	padj 0.000265	DAS no
+    SR	Bv6_183510_hkoy	RSZ21	cold4C_GT3_leaf	log2FC -1.457	padj 2.29e-09	DAS no
+    SR	Bv6_183510_hkoy	RSZ21	imbibition_10C_60h_vs_dry	log2FC -1.988	padj 4.4e-47	DAS no
+    SR	Bv9_266890_htkj	SC35	cold4C_GT1_taproot	log2FC -1.078	padj 1.68e-05	DAS no
+    SR	Bv9_266890_htkj	SC35	imbibition_10C_60h_vs_dry	log2FC -2.319	padj 4.45e-115	DAS yes
+    SR	Bv9_266890_htkj	SC35	imbibition_5C_160h_vs_60h	log2FC -1.128	padj 7.39e-20	DAS no
+    SR	Bv9_266890_htkj	SC35	imbibition_5C_272h_vs_60h	log2FC -1.119	padj 4.62e-24	DAS no
+    SR-like	Bv7_215150_hgfi	SR45A	imbibition_10C_60h_vs_dry	log2FC -3.547	padj 3.32e-256	DAS yes
+    SR-like	Bv7_215150_hgfi	SR45A	imbibition_5C_160h_vs_60h	log2FC -1.254	padj 2.23e-26	DAS no
+    SR-like	Bv7_215150_hgfi	SR45A	imbibition_5C_272h_vs_10C_82h	log2FC 1.391	padj 2.88e-24	DAS no
+    SR-like	Bv7_215150_hgfi	SR45A	imbibition_5C_vs_10C_60h	log2FC 1.686	padj 6.05e-41	DAS no
+    SR-like	Bv7_215150_hgfi	SR45A	tablebeet_red_enlargement_vs_rosette	log2FC 1.467	padj 0.0253	DAS no
+    SR-like	Bv7_215150_hgfi	SR45A	transgenic_S3_vs_WT	log2FC -1.425	padj 0.00984	DAS no
+    SR-like	Bv7_215150_hgfi	SR45A	transgenic_S6_vs_WT	log2FC -1.208	padj 0.0119	DAS no
+    U2AF	Bv7_191900_ajqt	U2AF35B	imbibition_10C_60h_vs_dry	log2FC -1.707	padj 7.41e-47	DAS no
+    U2AF	Bv7_191900_ajqt	U2AF35B	imbibition_5C_272h_vs_60h	log2FC -1.060	padj 7.41e-15	DAS no
+    U2AF	Bv7_193780_rqht	U2AF35B	tablebeet_yellow_enlargement_vs_rosette	log2FC 1.071	padj 2.46e-07	DAS no
+    U2AF	Bv9_258030_hiiy	U2AF65B	aphano_G6_30hpi_01_7_6	log2FC -2.690	padj 0.00321	DAS no
+    U2AF	Bv9_258030_hiiy	U2AF65B	imbibition_10C_60h_vs_dry	log2FC 2.247	padj 0.0341	DAS no
+    U2AF	Bv9_258030_hiiy	U2AF65B	imbibition_5C_160h_vs_60h	log2FC 1.432	padj 0.0348	DAS no
+    U2AF	Bv9_258030_hiiy	U2AF65B	imbibition_5C_272h_vs_10C_82h	log2FC 1.383	padj 0.0329	DAS no
+    U2AF	Bv9_258030_hiiy	U2AF65B	imbibition_5C_272h_vs_60h	log2FC 1.370	padj 0.0377	DAS no
+    U2AF	Bv9_258030_hiiy	U2AF65B	imbibition_5C_432h_vs_60h	log2FC 1.547	padj 0.0282	DAS no
+    U2AF	Bv9_258030_hiiy	U2AF65B	sclerotinia	log2FC 8.143	padj 0.000583	DAS no
+    U2AF	Bv9_258030_hiiy	U2AF65B	tablebeet_red_enlargement_vs_rosette	log2FC 10.533	padj 0.00466	DAS no
+    U2AF	Bv9_262300_jrqf	U2AF35B	imbibition_10C_60h_vs_dry	log2FC -3.178	padj 1.45e-118	DAS yes
+    U2AF	Bv9_262300_jrqf	U2AF35B	imbibition_5C_272h_vs_10C_82h	log2FC 1.219	padj 9.58e-11	DAS no
+    U2AF	Bv9_262300_jrqf	U2AF35B	sclerotinia	log2FC 1.066	padj 0.0155	DAS no
+    hnRNP-like	Bv1_016440_xymo	RZ1A	imbibition_10C_60h_vs_dry	log2FC 1.349	padj 1.27e-48	DAS no
+    hnRNP-like	Bv1_020470_cuqd	RBP47C	imbibition_5C_272h_vs_10C_82h	log2FC -1.195	padj 8.42e-149	DAS no
+    hnRNP-like	Bv1_020470_cuqd	RBP47C	imbibition_5C_272h_vs_60h	log2FC -1.580	padj 1.22e-250	DAS no
+    hnRNP-like	Bv1_020470_cuqd	RBP47C	imbibition_5C_432h_vs_60h	log2FC -1.908	padj 1.3e-200	DAS no
+    hnRNP-like	Bv1_028320_ysey	RNP1	tablebeet_yellow_enlargement_vs_rosette	log2FC -1.176	padj 7.09e-06	DAS no
+    hnRNP-like	Bv2_052140_wpqy	PTB	imbibition_10C_60h_vs_dry	log2FC 1.262	padj 5.27e-35	DAS yes
+    hnRNP-like	Bv2_052140_wpqy	PTB	tablebeet_yellow_enlargement_vs_rosette	log2FC -1.486	padj 5.74e-14	DAS no
+    hnRNP-like	Bv3_059840_nhfp	RNP1	tablebeet_yellow_enlargement_vs_rosette	log2FC 1.003	padj 3.15e-07	DAS no
+    hnRNP-like	Bv4_118010_tifi	RBP45C	cold4C_GT1_taproot	log2FC -1.114	padj 3.33e-25	DAS no
+    hnRNP-like	Bv4_118010_tifi	RBP45C	cold4C_GT2_taproot	log2FC -1.067	padj 1.48e-15	DAS no
+    hnRNP-like	Bv4_118010_tifi	RBP45C	cold4C_GT3_taproot	log2FC -1.124	padj 1.44e-12	DAS no
+    hnRNP-like	Bv4_118010_tifi	RBP45C	imbibition_5C_272h_vs_60h	log2FC -1.318	padj 2.49e-95	DAS no
+    hnRNP-like	Bv4_118010_tifi	RBP45C	imbibition_5C_432h_vs_60h	log2FC -1.184	padj 6.87e-49	DAS no
+    hnRNP-like	Bv6_162840_dqtz	At1g43190	imbibition_10C_60h_vs_dry	log2FC 1.152	padj 1.52e-23	DAS no
+    hnRNP-like	Bv7_195340_nrmz	RZ1C	imbibition_5C_160h_vs_60h	log2FC -1.176	padj 1.06e-30	DAS no
+    hnRNP-like	Bv7_195340_nrmz	RZ1C	imbibition_5C_272h_vs_60h	log2FC -1.758	padj 8.7e-104	DAS no
+    hnRNP-like	Bv7_195340_nrmz	RZ1C	imbibition_5C_432h_vs_60h	log2FC -1.832	padj 6.82e-80	DAS no
+    hnRNP-like	Bv7_195340_nrmz	RZ1C	imbibition_5C_vs_10C_60h	log2FC 1.428	padj 1.79e-60	DAS no
+    hnRNP-like	Bv8_226190_yunz	RBP45B	imbibition_10C_60h_vs_dry	log2FC 2.125	padj 1.41e-278	DAS no
+    hnRNP-like	Bv8_226190_yunz	RBP45B	imbibition_5C_272h_vs_10C_82h	log2FC -1.674	padj 2.65e-219	DAS no
+    hnRNP-like	Bv8_226190_yunz	RBP45B	imbibition_5C_272h_vs_60h	log2FC -1.254	padj 1.12e-100	DAS no
+    hnRNP-like	Bv8_226190_yunz	RBP45B	imbibition_5C_432h_vs_60h	log2FC -1.977	padj 4.17e-161	DAS no
+    hnRNP-like	Bv8_240890_dqjy	UBP1B	cold4C_GT2_taproot	log2FC 1.011	padj 1.25e-17	DAS no
+    hnRNP-like	Bv8_240890_dqjy	UBP1B	tablebeet_red_enlargement_vs_rosette	log2FC 1.042	padj 0.000586	DAS no
+    hnRNP-like	Bv9_258600_hpff	LIF2	cold0C_GT1_leaf	log2FC 1.518	padj 6.68e-12	DAS no
+    hnRNP-like	Bv9_258600_hpff	LIF2	sclerotinia	log2FC 1.085	padj 0.000455	DAS no
+    hnRNP-like	Bv9_269730_jrfd	RBG7	cold0C_GT1_leaf	log2FC -1.812	padj 1.73e-19	DAS no
+    hnRNP-like	Bv9_269730_jrfd	RBG7	cold4C_GT1_leaf	log2FC -1.832	padj 2.12e-26	DAS no
+    hnRNP-like	Bv9_269730_jrfd	RBG7	cold4C_GT1_taproot	log2FC -1.104	padj 4.56e-07	DAS yes
+    hnRNP-like	Bv9_269730_jrfd	RBG7	cold4C_GT3_leaf	log2FC -1.795	padj 3.82e-08	DAS no
+    hnRNP-like	Bv9_269730_jrfd	RBG7	cold4C_GT3_taproot	log2FC -1.032	padj 3.69e-05	DAS no
+    hnRNP-like	Bv9_269730_jrfd	RBG7	imbibition_10C_60h_vs_dry	log2FC 1.862	padj 2.8e-132	DAS yes
+    hnRNP-like	Bv9_269730_jrfd	RBG7	imbibition_5C_160h_vs_60h	log2FC -1.126	padj 1.82e-16	DAS no
+    hnRNP-like	Bv9_269730_jrfd	RBG7	imbibition_5C_272h_vs_10C_82h	log2FC -1.657	padj 6.33e-38	DAS yes
+    hnRNP-like	Bv9_269730_jrfd	RBG7	imbibition_5C_272h_vs_60h	log2FC -1.920	padj 1.01e-34	DAS yes
+    hnRNP-like	Bv9_269730_jrfd	RBG7	imbibition_5C_432h_vs_60h	log2FC -2.383	padj 9.57e-118	DAS yes
+    hnRNP-like	Bv9_269730_jrfd	RBG7	tablebeet_red_enlargement_vs_rosette	log2FC 1.509	padj 2.08e-16	DAS no
+    hnRNP-like	Bv9_269730_jrfd	RBG7	tablebeet_yellow_enlargement_vs_rosette	log2FC 1.354	padj 2.98e-06	DAS yes
+    other splicing factor	Bv3_072690_rpfc	CTN	tablebeet_yellow_enlargement_vs_rosette	log2FC -1.297	padj 0.0199	DAS no
+    other splicing factor	Bv3_082810_rpsg	CTN	sclerotinia	log2FC 5.061	padj 0.000546	DAS no
+    other splicing factor	Bv7_194610_wxsr	CTN	imbibition_5C_160h_vs_60h	log2FC -1.115	padj 2.7e-47	DAS no
+    other splicing factor	Bv7_194610_wxsr	CTN	imbibition_5C_272h_vs_60h	log2FC -1.144	padj 7.71e-59	DAS no
+    other splicing factor	Bv7_194610_wxsr	CTN	imbibition_5C_432h_vs_60h	log2FC -1.015	padj 4.38e-30	DAS no
+    other splicing factor	Bv7_194610_wxsr	CTN	imbibition_5C_vs_10C_60h	log2FC 1.147	padj 1.6e-51	DAS no
+    snRNP	Bv1_008480_dnqp	At5g12190	aphano_G1_30hpi_Hokkaido	log2FC 1.313	padj 0.000626	DAS no
+    snRNP	Bv1_008480_dnqp	At5g12190	imbibition_5C_272h_vs_60h	log2FC -1.421	padj 7.13e-41	DAS no
+    snRNP	Bv1_008480_dnqp	At5g12190	imbibition_5C_432h_vs_60h	log2FC -1.985	padj 8.15e-52	DAS no
+    snRNP	Bv1_008480_dnqp	At5g12190	tablebeet_yellow_enlargement_vs_rosette	log2FC -1.118	padj 0.000383	DAS no
+    snRNP	Bv2_032610_uzza	LSM2	tablebeet_red_enlargement_vs_rosette	log2FC -1.215	padj 2.24e-09	DAS no
+    snRNP	Bv2_042480_wota	PRP31	cold4C_GT3_leaf	log2FC -1.476	padj 0.0259	DAS no
+    snRNP	Bv2_042480_wota	PRP31	imbibition_10C_60h_vs_dry	log2FC -3.227	padj 1.99e-05	DAS no
+    snRNP	Bv2_042480_wota	PRP31	tablebeet_red_enlargement_vs_rosette	log2FC 2.646	padj 5.04e-06	DAS no
+    snRNP	Bv2_042480_wota	PRP31	tablebeet_yellow_enlargement_vs_rosette	log2FC 1.330	padj 5.86e-05	DAS no
+    snRNP	Bv2_048050_njwm	At4g03120	imbibition_5C_432h_vs_60h	log2FC -1.285	padj 1.66e-25	DAS no
+    snRNP	Bv2_048050_njwm	At4g03120	tablebeet_yellow_enlargement_vs_rosette	log2FC -1.163	padj 4.97e-09	DAS no
+    snRNP	Bv2_059260_tsax	U2A'	sclerotinia	log2FC -1.047	padj 0.000441	DAS no
+    snRNP	Bv2_059260_tsax	U2A'	tablebeet_red_enlargement_vs_rosette	log2FC -1.009	padj 9.06e-11	DAS no
+    snRNP	Bv3_073160_udry	LSM6B	aphano_G1_30hpi_Hokkaido	log2FC 1.031	padj 0.00345	DAS no
+    snRNP	Bv3_081060_cihi	PRP31	sclerotinia	log2FC 1.804	padj 7.92e-05	DAS no
+    snRNP	Bv3_081060_cihi	PRP31	tablebeet_yellow_enlargement_vs_rosette	log2FC -1.030	padj 0.00115	DAS no
+    snRNP	Bv4_105820_jeqz	LSM5	tablebeet_yellow_enlargement_vs_rosette	log2FC -1.514	padj 2.9e-16	DAS no
+    snRNP	Bv4_105830_ikux	LSM8	aphano_G6_30hpi_01_7_6	log2FC -1.137	padj 0.041	DAS no
+    snRNP	Bv4_105830_ikux	LSM8	aphano_G6_6hpi_01_7_6	log2FC -1.606	padj 0.0326	DAS no
+    snRNP	Bv4_105830_ikux	LSM8	imbibition_10C_60h_vs_dry	log2FC -2.155	padj 1.99e-76	DAS no
+    snRNP	Bv4_105830_ikux	LSM8	imbibition_5C_272h_vs_10C_82h	log2FC 1.164	padj 1.36e-13	DAS no
+    snRNP	Bv4_105830_ikux	LSM8	tablebeet_red_enlargement_vs_rosette	log2FC 2.360	padj 6.94e-23	DAS no
+    snRNP	Bv4_105830_ikux	LSM8	tablebeet_yellow_enlargement_vs_rosette	log2FC 1.989	padj 6.45e-28	DAS no
+    snRNP	Bv6_183460_idfp	PRP31	cold0C_GT1_leaf	log2FC 1.333	padj 2.11e-18	DAS no
+    snRNP	Bv6_183460_idfp	PRP31	cold4C_GT1_leaf	log2FC 1.032	padj 4.42e-08	DAS no
+    snRNP	Bv6_183460_idfp	PRP31	cold4C_GT3_leaf	log2FC 1.050	padj 3.83e-14	DAS no
+    snRNP	Bv6_183460_idfp	PRP31	sclerotinia	log2FC 1.158	padj 2.56e-07	DAS no
+    snRNP	Bv7_190240_wqcw	LSM7	cold4C_GT1_leaf	log2FC 1.018	padj 8.24e-06	DAS no
+    snRNP	Bv7_190240_wqcw	LSM7	cold4C_GT1_taproot	log2FC 1.297	padj 4.23e-12	DAS no
+    snRNP	Bv7_190240_wqcw	LSM7	cold4C_GT2_taproot	log2FC 1.206	padj 2.21e-18	DAS no
+    snRNP	Bv7_190240_wqcw	LSM7	cold4C_GT3_taproot	log2FC 1.173	padj 3.97e-14	DAS no
+    snRNP	Bv7_190240_wqcw	LSM7	imbibition_5C_272h_vs_60h	log2FC 1.474	padj 1.67e-24	DAS no
+    snRNP	Bv7_190240_wqcw	LSM7	imbibition_5C_432h_vs_60h	log2FC 1.485	padj 5.3e-20	DAS no
+
+== splicing-regulator families ==
+  PRP: 23 genes, reciprocal best 16, with event 6
+  SF1: 1 genes, reciprocal best 1, with event 0
+  SR: 16 genes, reciprocal best 10, with event 14
+  SR-like: 1 genes, reciprocal best 1, with event 1
+  U2AF: 7 genes, reciprocal best 2, with event 5
+  hnRNP-like: 18 genes, reciprocal best 11, with event 5
+  other splicing factor: 4 genes, reciprocal best 2, with event 1
+  snRNP: 24 genes, reciprocal best 17, with event 3
+  SR subfamilies: RS 5, RS2Z 1, RSZ 2, SC 2, SCL 3, SR 3
+  SR genes: gene, subfamily, ath gene, rule, pident, reciprocal, events
+    Bv1_002650_fexw	RS	RS31	yes	77.8	yes	SE:higher:6:cold,imbibition,tablebeet;SE:higher:2:cold,imbibition
+    Bv1_010980_dmoz	RS	RS41	yes	66.2	no	SE:mixed:2:imbibition,tablebeet
+    Bv1_012090_usdj	RS	RS31	no	83.3	no	SE:higher:5:cold
+    Bv2_042890_kyhj	RS	RS31	no	88.9	no	SE:higher:2:cold
+    Bv3_068140_sqpz	RS	RS41	yes	74.4	yes	A5:mixed:5:cold,imbibition,tablebeet;RI:higher:1:tablebeet;SE:higher:1:tablebeet
+    Bv2_045610_ohgg	RS2Z	RS2Z33	yes	57.8	yes	A3:higher:4:cold,imbibition;A3:higher:1:imbibition
+    Bv2_059100_eopk	RSZ	RSZ22A	yes	72.4	yes	RI:lower:1:imbibition
+    Bv6_183510_hkoy	RSZ	RSZ21	yes	71.7	yes	RI:lower:2:cold,tablebeet
+    Bv1_013560_shju	SC	SC35	yes	82.0	yes	RI:lower:1:tablebeet;SE:lower:1:imbibition
+    Bv9_266890_htkj	SC	SC35	yes	82.4	no	RI:lower:5:cold,imbibition,tablebeet;RI:lower:1:imbibition
+    Bv2_031940_fijm	SCL	SCL30	yes	77.0	yes	SE:higher:1:imbibition
+    Bv3_082390_pruc	SCL	SCL33	yes	81.9	yes	SE:mixed:9:aphano,cold,imbibition
+    Bv4_089870_tixd	SCL	SCL30A	yes	63.8	no	A5:mixed:2:imbibition;RI:mixed:2:imbibition,tablebeet;SE:higher:1:tablebeet
+    Bv1_002220_gtmz	SR	SR34A	yes	74.4	no	
+    Bv3_062680_nkct	SR	SR34A	yes	75.2	yes	SE:mixed:8:aphano,cold,imbibition,tablebeet;A5:mixed:3:cold,imbibition,tablebeet;SE:higher:3:cold,imbibition,tablebeet
+    Bv7_201690_fgsn	SR	SR34	yes	71.7	yes	
+  enrichment: family, members, with event, expected, p
+    PRP	15	6	2.09	0.0118
+    SF1	1	0	0.14	1
+    SR	16	14	2.23	9.14e-11
+    SR-like	1	1	0.14	0.139
+    U2AF	7	5	0.98	0.000861
+    all families	71	35	9.9	1.09e-12
+    hnRNP-like	16	5	2.23	0.0608
+    other splicing factor	3	1	0.42	0.363
+    snRNP	12	3	1.67	0.228
+  background 12464 genes, 1738 with event
+
+== GO enrichment ==
+  all: foreground 1071 genes, terms tested 3051, FDR<0.05: 45
+    GO:0008380	RNA splicing	59/183	fold 2.15	FDR 4.9e-06
+    GO:0000398	mRNA splicing, via spliceosome	33/81	fold 2.71	FDR 1.5e-05
+    GO:0000377	RNA splicing, via transesterification reactions with bulged adenosine as nucleophile	36/97	fold 2.47	FDR 3.8e-05
+    GO:0006397	mRNA processing	78/298	fold 1.74	FDR 0.0001
+    GO:0000375	RNA splicing, via transesterification reactions	36/102	fold 2.35	FDR 0.0001
+    GO:0043484	regulation of RNA splicing	18/36	fold 3.33	FDR 0.00027
+    GO:0016071	mRNA metabolic process	89/368	fold 1.61	FDR 0.00038
+    GO:0009081	branched-chain amino acid metabolic process	13/22	fold 3.94	FDR 0.00057
+    GO:0006396	RNA processing	122/554	fold 1.47	FDR 0.00063
+    GO:0006551	L-leucine metabolic process	10/14	fold 4.76	FDR 0.00064
+  aphano: foreground 101 genes, terms tested 654, FDR<0.05: 0
+  bctv: foreground 15 genes, terms tested 149, FDR<0.05: 4
+    GO:0047890	flavanone 4-reductase activity	2/13	fold 73.19	FDR 0.028
+    GO:0045552	dihydroflavanol 4-reductase activity	2/14	fold 67.96	FDR 0.028
+    GO:0007030	Golgi organization	2/18	fold 52.86	FDR 0.031
+    GO:0009718	anthocyanin-containing compound biosynthetic process	2/26	fold 36.59	FDR 0.048
+  cold: foreground 593 genes, terms tested 2239, FDR<0.05: 17
+    GO:0000398	mRNA splicing, via spliceosome	22/81	fold 3.27	FDR 0.0008
+    GO:0008380	RNA splicing	36/183	fold 2.37	FDR 0.0008
+    GO:0043484	regulation of RNA splicing	13/36	fold 4.35	FDR 0.0017
+    GO:0009081	branched-chain amino acid metabolic process	10/22	fold 5.47	FDR 0.0017
+    GO:0000377	RNA splicing, via transesterification reactions with bulged adenosine as nucleophile	22/97	fold 2.73	FDR 0.0039
+    GO:0000375	RNA splicing, via transesterification reactions	22/102	fold 2.6	FDR 0.0068
+    GO:0006551	L-leucine metabolic process	7/14	fold 6.02	FDR 0.013
+    GO:0048024	regulation of mRNA splicing, via spliceosome	9/26	fold 4.17	FDR 0.029
+    GO:0071949	FAD binding	7/17	fold 4.96	FDR 0.037
+    GO:0009083	branched-chain amino acid catabolic process	6/13	fold 5.55	FDR 0.045
+  imbibition: foreground 342 genes, terms tested 1634, FDR<0.05: 89
+    GO:0008380	RNA splicing	39/183	fold 4.45	FDR 1.5e-12
+    GO:0016071	mRNA metabolic process	55/368	fold 3.12	FDR 6.4e-12
+    GO:0006396	RNA processing	68/554	fold 2.56	FDR 5.4e-11
+    GO:0003723	RNA binding	91/887	fold 2.14	FDR 7.7e-11
+    GO:0006397	mRNA processing	46/298	fold 3.22	FDR 1.6e-10
+    GO:0010467	gene expression	126/1549	fold 1.7	FDR 8.5e-09
+    GO:0046483	obsolete heterocycle metabolic process	162/2249	fold 1.5	FDR 3.5e-08
+    GO:0006139	nucleobase-containing compound metabolic process	153/2090	fold 1.53	FDR 4.9e-08
+    GO:0016070	RNA metabolic process	126/1608	fold 1.63	FDR 6.6e-08
+    GO:0000377	RNA splicing, via transesterification reactions with bulged adenosine as nucleophile	22/97	fold 4.73	FDR 6.7e-08
+  sclerotinia: foreground 14 genes, terms tested 208, FDR<0.05: 37
+    GO:0015175	neutral L-amino acid transmembrane transporter activity	2/8	fold 127.43	FDR 0.013
+    GO:0015804	neutral amino acid transport	2/9	fold 113.27	FDR 0.013
+    GO:0006739	NADP+ metabolic process	2/15	fold 67.96	FDR 0.017
+    GO:0015807	L-amino acid transport	2/17	fold 59.97	FDR 0.017
+    GO:1902475	L-alpha-amino acid transmembrane transport	2/17	fold 59.97	FDR 0.017
+    GO:0015179	L-amino acid transmembrane transporter activity	2/17	fold 59.97	FDR 0.017
+    GO:0008509	monoatomic anion transmembrane transporter activity	3/123	fold 12.43	FDR 0.04
+    GO:0098656	monoatomic anion transmembrane transport	3/127	fold 12.04	FDR 0.04
+    GO:0015171	amino acid transmembrane transporter activity	2/34	fold 29.98	FDR 0.04
+    GO:0003333	amino acid transmembrane transport	2/34	fold 29.98	FDR 0.04
+  tablebeet: foreground 328 genes, terms tested 1463, FDR<0.05: 8
+    GO:0006397	mRNA processing	34/298	fold 2.48	FDR 0.00098
+    GO:0016071	mRNA metabolic process	36/368	fold 2.13	FDR 0.0043
+    GO:0008380	RNA splicing	22/183	fold 2.62	FDR 0.0089
+  transgenic: foreground 54 genes, terms tested 435, FDR<0.05: 9
+    GO:0010962	regulation of glucan biosynthetic process	3/8	fold 49.56	FDR 0.0069
+    GO:0032885	regulation of polysaccharide biosynthetic process	3/9	fold 44.05	FDR 0.0069
+    GO:0032881	regulation of polysaccharide metabolic process	3/10	fold 39.64	FDR 0.0069
+    GO:0010675	obsolete regulation of cellular carbohydrate metabolic process	3/18	fold 22.02	FDR 0.03
+    GO:0043255	regulation of carbohydrate biosynthetic process	3/19	fold 20.87	FDR 0.03
+    GO:2000904	regulation of starch metabolic process	2/5	fold 52.86	FDR 0.03
+    GO:0032950	regulation of beta-glucan metabolic process	2/5	fold 52.86	FDR 0.03
+    GO:0032951	regulation of beta-glucan biosynthetic process	2/5	fold 52.86	FDR 0.03
+    GO:0006109	regulation of carbohydrate metabolic process	3/24	fold 16.52	FDR 0.036

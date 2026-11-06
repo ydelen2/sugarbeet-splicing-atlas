@@ -1,0 +1,27 @@
+# SUPPA2 nominal p < 0.05 or BH < 0.05; rMATS FDR < 0.05, every replicate >= 20 reads; |dPSI| >= 0.1; directions are test minus reference; the _matched columns count significant events among the matched testable events, sig_both_expected is the overlap expected by chance for independent calls (product of the two matched counts over matched_testable) and sig_both_p its hypergeometric upper-tail probability
+comparison	event_type	suppa_testable	rmats_all	rmats_covered	suppa_with_rmats_partner_pct	rmats_rows_ambiguous	matched_testable	dpsi_pearson	suppa_sig_nominal	suppa_sig_bh	rmats_sig	sig_both	sig_both_same_direction	sig_both_bh	same_direction_higher_in_test	same_direction_lower_in_test	suppa_sig_matched	rmats_sig_matched	sig_both_expected	sig_both_enrichment	sig_both_p
+tissue_GT1_control_taproot_vs_leaf	SE	5428	15371	11042	83.5	0	3172	0.443	179	4	517	24	23	0	8	15	110	365	12.66	1.9	0.0012
+tissue_GT1_control_taproot_vs_leaf	A3	9809	7591	4790	64.7	0	4271	0.437	405	9	517	52	49	0	38	11	213	479	23.89	2.2	1.85e-08
+tissue_GT1_control_taproot_vs_leaf	A5	5378	4139	2711	61.8	0	2284	0.441	212	5	330	23	23	1	15	8	107	294	13.77	1.7	0.00744
+tissue_GT1_control_taproot_vs_leaf	RI	6083	5270	3503	78.2	0	3315	0.386	358	11	497	38	34	1	28	6	208	478	29.99	1.3	0.066
+tissue_GT1_control_taproot_vs_leaf	MX	189	1487	1175	50.8	0	67	0.683	4	0	219	0	0	0	0	0	0	11	0.0		1
+tissue_GT3_control_taproot_vs_leaf	SE	5366	15823	12122	84.0	0	3449	0.458	82	0	647	19	19	0	4	15	44	434	5.54	3.4	3.7e-07
+tissue_GT3_control_taproot_vs_leaf	A3	9696	7713	5363	65.6	0	4763	0.492	178	5	614	29	28	1	18	10	60	575	7.24	4.0	3.66e-12
+tissue_GT3_control_taproot_vs_leaf	A5	5341	4254	3047	63.2	0	2532	0.538	114	0	358	20	20	0	7	13	33	310	4.04	5.0	4.16e-11
+tissue_GT3_control_taproot_vs_leaf	RI	6070	5378	3938	79.6	0	3751	0.396	159	3	549	23	22	0	14	8	84	537	12.03	1.9	0.00116
+tissue_GT3_control_taproot_vs_leaf	MX	187	1647	1383	49.7	0	68	0.148	5	0	128	0	0	0	0	0	2	3	0.09	0.0	1
+tissue_GT1_cold_taproot_vs_leaf	SE	5512	25990	21865	87.5	0	4027	0.502	61	0	970	20	20	0	5	15	44	522	5.7	3.5	1.09e-07
+tissue_GT1_cold_taproot_vs_leaf	A3	9892	8269	6398	65.8	0	5388	0.53	147	3	726	37	36	1	22	14	82	635	9.66	3.8	2.71e-14
+tissue_GT1_cold_taproot_vs_leaf	A5	5448	4684	3720	63.2	0	2899	0.51	81	2	394	20	18	1	10	8	37	332	4.24	4.7	2.24e-10
+tissue_GT1_cold_taproot_vs_leaf	RI	6205	5406	4334	80.0	0	4102	0.396	124	3	576	23	23	0	13	10	87	563	11.94	1.9	0.0011
+tissue_GT1_cold_taproot_vs_leaf	MX	211	3731	3425	50.2	0	85	0.412	5	0	267	2	2	0	1	1	2	14	0.33	6.1	0.0255
+tissue_GT2_cold_taproot_vs_leaf	SE	5544	23831	19440	88.0	0	3911	0.445	148	2	798	21	21	0	6	15	109	426	11.87	1.8	0.00604
+tissue_GT2_cold_taproot_vs_leaf	A3	9961	8184	6141	65.4	0	5231	0.482	325	5	658	54	49	0	22	27	179	574	19.64	2.7	7.9e-13
+tissue_GT2_cold_taproot_vs_leaf	A5	5456	4647	3535	63.4	0	2800	0.473	160	1	377	27	26	0	7	19	80	310	8.86	3.0	3.4e-08
+tissue_GT2_cold_taproot_vs_leaf	RI	6191	5514	4243	80.4	0	4002	0.401	251	6	543	44	41	0	18	23	177	519	22.95	1.9	8.19e-06
+tissue_GT2_cold_taproot_vs_leaf	MX	211	3160	2836	54.5	0	86	0.374	5	0	276	1	1	0	0	1	2	9	0.21	4.8	0.199
+tissue_GT3_cold_taproot_vs_leaf	SE	5543	24567	20582	88.0	0	4007	0.501	45	1	952	15	15	0	3	12	27	517	3.48	4.3	1.48e-07
+tissue_GT3_cold_taproot_vs_leaf	A3	9881	8266	6248	66.0	0	5269	0.551	124	2	685	26	25	1	12	13	52	614	6.06	4.3	8.43e-12
+tissue_GT3_cold_taproot_vs_leaf	A5	5445	4728	3701	63.7	0	2885	0.531	85	1	389	13	12	0	9	3	27	317	2.97	4.4	1.29e-06
+tissue_GT3_cold_taproot_vs_leaf	RI	6230	5516	4393	80.1	0	4125	0.45	65	2	666	20	19	0	15	4	46	636	7.09	2.8	4.59e-06
+tissue_GT3_cold_taproot_vs_leaf	MX	199	3351	3092	54.8	0	86	0.442	4	0	194	0	0	0	0	0	2	11	0.26	0.0	1

@@ -1,0 +1,6 @@
+comparison_id	study	subset	group_column	reference	test	n_reference	n_test	note
+tissue_GT1_control_taproot_vs_leaf	PRJNA602804	genotype=GT1;condition=control_20C	tissue	leaf	taproot	2	3	10 weeks at 20 C, leaf reference; the third leaf control run is a strandedness override
+tissue_GT3_control_taproot_vs_leaf	PRJNA602804	genotype=GT3;condition=control_20C	tissue	leaf	taproot	3	3	10 weeks at 20 C, leaf reference
+tissue_GT1_cold_taproot_vs_leaf	PRJNA602804	genotype=GT1;condition=cold_4C	tissue	leaf	taproot	3	3	10 weeks at 4 C, leaf reference
+tissue_GT2_cold_taproot_vs_leaf	PRJNA602804	genotype=GT2;condition=cold_4C	tissue	leaf	taproot	3	3	10 weeks at 4 C, leaf reference; the GT2 control leaf runs are all strandedness overrides, so no control comparison for GT2
+tissue_GT3_cold_taproot_vs_leaf	PRJNA602804	genotype=GT3;condition=cold_4C	tissue	leaf	taproot	3	3	10 weeks at 4 C, leaf reference

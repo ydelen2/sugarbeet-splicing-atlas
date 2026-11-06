@@ -1,0 +1,13 @@
+field	pattern	component	note
+description	abscisic	any	any eggNOG description that names abscisic acid (receptors, ABI/ABF transcription factors, 8'-hydroxylases, abscisic-aldehyde oxidase, abscisic acid stress ripening and other ABA-named proteins)
+description	zeaxanthin epoxidase	biosynthesis	ABA1/ZEP
+description	9-cis-epoxycarotenoid dioxygenase	biosynthesis	NCED
+description	xanthoxin	biosynthesis	ABA2, xanthoxin dehydrogenase
+description	DELAY OF GERMINATION	dormancy	DOG1
+preferred_name	^(ABA[1-4]|ZEP|NCED[1-9]|AAO3|ABA4)$	biosynthesis	biosynthesis gene symbols as eggNOG preferred names
+preferred_name	^(CYP707A[1-4])$	catabolism	ABA 8'-hydroxylases
+preferred_name	^(PYR1|PYL[0-9]+|RCAR[0-9]+)$	receptor	PYR/PYL/RCAR receptors
+preferred_name	^(ABI1|ABI2|HAB1|HAB2|HAI[1-3]|AHG1|AHG3|PP2CA)$	signaling	clade A protein phosphatases 2C
+preferred_name	^(SNRK2\.[0-9]+|SRK2[A-J]|OST1)$	signaling	SnRK2 kinases
+preferred_name	^(ABI3|ABI4|ABI5|ABF[1-4]|AREB[1-3]|FUS3|LEC1|LEC2)$	transcription	ABA-responsive transcription factors and seed maturation regulators
+preferred_name	^(DOG1)$	dormancy	DOG1

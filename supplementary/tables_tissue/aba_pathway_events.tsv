@@ -1,0 +1,2 @@
+gene	preferred_name	description	component	matched_pattern	suppa_event	event_type	n_comparisons	comparisons	groups	direction	suppa_dpsi_mean	rmats_dpsi_mean
+Bv7_213940_oouy	AAO3	aldehyde oxidase	biosynthesis	^(ABA[1-4]|ZEP|NCED[1-9]|AAO3|ABA4)$	MSTRG.53812;A5:0_Bvchr7_bp59234145:54067474-54067571:54067474-54067802:-	A5	1	tissue_GT1_control_taproot_vs_leaf	tissue	higher	0.4623	0.42

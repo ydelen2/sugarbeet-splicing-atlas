@@ -1,0 +1,3 @@
+run	libtype	reason
+SRR29044323	ISR	STAR gene counts forward 312193, reverse 34304760 (reverse-stranded, as the other 34 runs of PRJNA1111959 called ISR by Salmon); automatic detection gave IU with ISF 5416115 and ISR 39258912 compatible fragments
+SRR29044324	ISR	STAR gene counts forward 111358, reverse 12223007 (reverse-stranded, as the other 34 runs of PRJNA1111959 called ISR by Salmon); automatic detection gave IU with ISF 3170582 and ISR 14863666 compatible fragments

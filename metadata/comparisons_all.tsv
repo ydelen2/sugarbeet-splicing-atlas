@@ -1,0 +1,41 @@
+comparison_id	study	subset	group_column	reference	test	n_reference	n_test	note
+aphano_G1_30hpi_01_7_6	PRJNA1072272	genotype=G1;timepoint=30hpi	condition	mock_01.7.6	aphanomyces_01.7.6	3	3	root; control collected with the same isolate
+aphano_G1_30hpi_Arhill2012	PRJNA1072272	genotype=G1;timepoint=30hpi	condition	mock_Arhill2012	aphanomyces_Arhill2012	3	5	root; control collected with the same isolate
+aphano_G1_30hpi_Hokkaido	PRJNA1072272	genotype=G1;timepoint=30hpi	condition	mock_Hokkaido	aphanomyces_Hokkaido	3	4	root; control collected with the same isolate
+aphano_G1_6hpi_01_7_6	PRJNA1072272	genotype=G1;timepoint=6hpi	condition	mock_01.7.6	aphanomyces_01.7.6	4	4	root; control collected with the same isolate
+aphano_G1_6hpi_Arhill2012	PRJNA1072272	genotype=G1;timepoint=6hpi	condition	mock_Arhill2012	aphanomyces_Arhill2012	3	3	root; control collected with the same isolate
+aphano_G1_6hpi_Hokkaido	PRJNA1072272	genotype=G1;timepoint=6hpi	condition	mock_Hokkaido	aphanomyces_Hokkaido	5	4	root; control collected with the same isolate
+aphano_G12_30hpi_Arhill2012	PRJNA1072272	genotype=G12;timepoint=30hpi	condition	mock_Arhill2012	aphanomyces_Arhill2012	4	4	root; control collected with the same isolate
+aphano_G12_6hpi_Arhill2012	PRJNA1072272	genotype=G12;timepoint=6hpi	condition	mock_Arhill2012	aphanomyces_Arhill2012	6	4	root; control collected with the same isolate
+aphano_G17_30hpi_Arhill2012	PRJNA1072272	genotype=G17;timepoint=30hpi	condition	mock_Arhill2012	aphanomyces_Arhill2012	4	4	root; control collected with the same isolate
+aphano_G17_6hpi_Arhill2012	PRJNA1072272	genotype=G17;timepoint=6hpi	condition	mock_Arhill2012	aphanomyces_Arhill2012	4	3	root; control collected with the same isolate
+aphano_G6_30hpi_01_7_6	PRJNA1072272	genotype=G6;timepoint=30hpi	condition	mock_01.7.6	aphanomyces_01.7.6	4	4	root; control collected with the same isolate
+aphano_G6_30hpi_Arhill2012	PRJNA1072272	genotype=G6;timepoint=30hpi	condition	mock_Arhill2012	aphanomyces_Arhill2012	3	3	root; control collected with the same isolate
+aphano_G6_30hpi_Hokkaido	PRJNA1072272	genotype=G6;timepoint=30hpi	condition	mock_Hokkaido	aphanomyces_Hokkaido	3	5	root; control collected with the same isolate
+aphano_G6_6hpi_01_7_6	PRJNA1072272	genotype=G6;timepoint=6hpi	condition	mock_01.7.6	aphanomyces_01.7.6	4	3	root; control collected with the same isolate
+aphano_G6_6hpi_Arhill2012	PRJNA1072272	genotype=G6;timepoint=6hpi	condition	mock_Arhill2012	aphanomyces_Arhill2012	3	4	root; control collected with the same isolate
+aphano_G6_6hpi_Hokkaido	PRJNA1072272	genotype=G6;timepoint=6hpi	condition	mock_Hokkaido	aphanomyces_Hokkaido	4	4	root; control collected with the same isolate
+bctv_EL_10_14dpi	PRJNA1111959	genotype=EL-10;timepoint=14dpi	condition	mock	BCTV	3	3	leaf
+bctv_EL_10_1dpi	PRJNA1111959	genotype=EL-10;timepoint=1dpi	condition	mock	BCTV	3	3	leaf
+bctv_EL_10_7dpi	PRJNA1111959	genotype=EL-10;timepoint=7dpi	condition	mock	BCTV	3	3	leaf
+bctv_FC709_2_14dpi	PRJNA1111959	genotype=FC709-2;timepoint=14dpi	condition	mock	BCTV	3	3	leaf
+bctv_FC709_2_1dpi	PRJNA1111959	genotype=FC709-2;timepoint=1dpi	condition	mock	BCTV	3	3	leaf
+bctv_FC709_2_7dpi	PRJNA1111959	genotype=FC709-2;timepoint=7dpi	condition	mock	BCTV	3	3	leaf
+cold4C_GT1_leaf	PRJNA602804	genotype=GT1;tissue=leaf	condition	control_20C	cold_4C	2	3	10 weeks
+cold4C_GT1_taproot	PRJNA602804	genotype=GT1;tissue=taproot	condition	control_20C	cold_4C	3	3	10 weeks
+cold4C_GT2_taproot	PRJNA602804	genotype=GT2;tissue=taproot	condition	control_20C	cold_4C	3	3	10 weeks
+cold4C_GT3_leaf	PRJNA602804	genotype=GT3;tissue=leaf	condition	control_20C	cold_4C	3	3	10 weeks
+cold4C_GT3_taproot	PRJNA602804	genotype=GT3;tissue=taproot	condition	control_20C	cold_4C	3	3	10 weeks
+cold0C_GT1_leaf	PRJNA748559	genotype=GT1	condition	control	cold	3	3	15 weeks, all libraries reverse-stranded
+imbibition_5C_vs_10C_60h	PRJNA675466	-	condition	imbibed_for_60_hours_10C	imbibed_for_60_hours_5C	3	3	seed
+imbibition_5C_160h_vs_60h	PRJNA675466	-	condition	imbibed_for_60_hours_5C	imbibed_for_160_hours_5C	3	3	seed
+imbibition_5C_272h_vs_60h	PRJNA675466	-	condition	imbibed_for_60_hours_5C	imbibed_for_272_hours_5C	3	3	seed
+imbibition_5C_432h_vs_60h	PRJNA675466	-	condition	imbibed_for_60_hours_5C	imbibed_for_432_hours_5C	3	3	seed
+imbibition_5C_272h_vs_10C_82h	PRJNA675466	-	condition	imbibed_for_82_hours_10C	imbibed_for_272_hours_5C	3	3	seed, physiological time point (1 percent germination) at each temperature
+imbibition_10C_82h_vs_60h	PRJNA675466	-	condition	imbibed_for_60_hours_10C	imbibed_for_82_hours_10C	3	3	seed, germination course at 10 C
+imbibition_10C_60h_vs_dry	PRJNA675466	-	condition	none_20C	imbibed_for_60_hours_10C	3	3	seed, dry versus imbibed
+tablebeet_red_enlargement_vs_rosette	PRJNA1473699	-	condition	red_rosette_stage	red_tuber_enlargement_stage	3	3	table beet root
+tablebeet_yellow_enlargement_vs_rosette	PRJNA1473699	-	condition	yellow_rosette_stage	yellow_tuber_enlargement_stage	3	3	table beet root
+transgenic_S3_vs_WT	PRJNA1394332	-	condition	WT	transgenic_S3	2	2	root; two replicates per group
+transgenic_S6_vs_WT	PRJNA1394332	-	condition	WT	transgenic_S6	2	2	root; two replicates per group
+sclerotinia	PRJNA574280	-	condition	control	sclerotinia	3	3	leaf; 59 to 69 percent of reads in infected samples are fungal, low power

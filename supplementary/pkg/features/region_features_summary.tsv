@@ -1,0 +1,7 @@
+type	set	n	median_length	median_gc	p_length_vs_consensus	p_gc_vs_consensus
+RI	annotated	100295	305	0.3356	0.0318	4.21e-08
+RI	tested	7131	168	0.3462	4.54e-07	0.0268
+RI	consensus	622	266.0	0.3428		
+SE	annotated	80486	115.0	0.4259	0.387	1.12e-24
+SE	tested	6409	108	0.4053	0.0259	0.938
+SE	consensus	608	117.0	0.404		

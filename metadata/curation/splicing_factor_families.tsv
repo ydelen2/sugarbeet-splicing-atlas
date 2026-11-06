@@ -1,0 +1,94 @@
+family	subfamily	uniprot_entry	gene	description	source
+SR	SR	SR30_ARATH	SR30	Serine/arginine-rich splicing factor SR30	UniProt UP000006548, entry description, retrieved 2026-09-26; subfamily from the gene name prefix
+SR	SR	SR34_ARATH	SR34	Serine/arginine-rich-splicing factor SR34	UniProt UP000006548, entry description, retrieved 2026-09-26; subfamily from the gene name prefix
+SR	SR	SR34A_ARATH	SR34A	Serine/arginine-rich splicing factor SR34A	UniProt UP000006548, entry description, retrieved 2026-09-26; subfamily from the gene name prefix
+SR	SR	SR34B_ARATH	SR34B	Serine/arginine-rich splicing factor SR34B	UniProt UP000006548, entry description, retrieved 2026-09-26; subfamily from the gene name prefix
+SR	RSZ	RSZ21_ARATH	RSZ21	Serine/arginine-rich splicing factor RSZ21	UniProt UP000006548, entry description, retrieved 2026-09-26; subfamily from the gene name prefix
+SR	RSZ	RSZ22_ARATH	RSZ22	Serine/arginine-rich splicing factor RSZ22	UniProt UP000006548, entry description, retrieved 2026-09-26; subfamily from the gene name prefix
+SR	RSZ	RZ22A_ARATH	RSZ22A	Serine/arginine-rich splicing factor RSZ22A	UniProt UP000006548, entry description, retrieved 2026-09-26; subfamily from the gene name prefix
+SR	SC	SC35_ARATH	SC35	Serine/arginine-rich splicing factor SC35	UniProt UP000006548, entry description, retrieved 2026-09-26; subfamily from the gene name prefix
+SR	SCL	SRC28_ARATH	SCL28	Serine/arginine-rich SC35-like splicing factor SCL28	UniProt UP000006548, entry description, retrieved 2026-09-26; subfamily from the gene name prefix
+SR	SCL	SRC30_ARATH	SCL30	Serine/arginine-rich SC35-like splicing factor SCL30	UniProt UP000006548, entry description, retrieved 2026-09-26; subfamily from the gene name prefix
+SR	SCL	SL30A_ARATH	SCL30A	Serine/arginine-rich SC35-like splicing factor SCL30A	UniProt UP000006548, entry description, retrieved 2026-09-26; subfamily from the gene name prefix
+SR	SCL	SRC33_ARATH	SCL33	Serine/arginine-rich SC35-like splicing factor SCL33	UniProt UP000006548, entry description, retrieved 2026-09-26; subfamily from the gene name prefix
+SR	RS	SRS31_ARATH	RS31	Serine/arginine-rich splicing factor RS31	UniProt UP000006548, entry description, retrieved 2026-09-26; subfamily from the gene name prefix
+SR	RS	RS31A_ARATH	RS31A	Serine/arginine-rich splicing factor RS31A	UniProt UP000006548, entry description, retrieved 2026-09-26; subfamily from the gene name prefix
+SR	RS	RS40_ARATH	RS40	Serine/arginine-rich splicing factor RS40	UniProt UP000006548, entry description, retrieved 2026-09-26; subfamily from the gene name prefix
+SR	RS	SRS41_ARATH	RS41	Serine/arginine-rich splicing factor RS41	UniProt UP000006548, entry description, retrieved 2026-09-26; subfamily from the gene name prefix
+SR	RS2Z	RSZ32_ARATH	RS2Z32	Serine/arginine-rich splicing factor RS2Z32	UniProt UP000006548, entry description, retrieved 2026-09-26; subfamily from the gene name prefix
+SR	RS2Z	RSZ33_ARATH	RS2Z33	Serine/arginine-rich splicing factor RS2Z33	UniProt UP000006548, entry description, retrieved 2026-09-26; subfamily from the gene name prefix
+SR-like	SR45	SR45_ARATH	SR45	Serine/arginine-rich splicing factor SR45	UniProt UP000006548, entry description, retrieved 2026-09-26; kept apart from the six SR subfamilies
+SR-like	SR45	SR45A_ARATH	SR45A	Serine/arginine-rich splicing factor SR45a	UniProt UP000006548, entry description, retrieved 2026-09-26; kept apart from the six SR subfamilies
+U2AF	U2AF35	U2AFA_ARATH	U2AF35A	Splicing factor U2af small subunit A	UniProt UP000006548, entry description, retrieved 2026-09-26
+U2AF	U2AF35	U2AFB_ARATH	U2AF35B	Splicing factor U2af small subunit B	UniProt UP000006548, entry description, retrieved 2026-09-26
+U2AF	U2AF65	U2A2A_ARATH	U2AF65A	Splicing factor U2af large subunit A	UniProt UP000006548, entry description, retrieved 2026-09-26
+U2AF	U2AF65	U2A2B_ARATH	U2AF65B	Splicing factor U2af large subunit B	UniProt UP000006548, entry description, retrieved 2026-09-26
+hnRNP-like	PTB	PTBP1_ARATH	PTB	Polypyrimidine tract-binding protein homolog 1	UniProt UP000006548, entry description, retrieved 2026-09-26
+hnRNP-like	PTB	PTBP2_ARATH	At5g53180	Polypyrimidine tract-binding protein homolog 2	UniProt UP000006548, entry description, retrieved 2026-09-26
+hnRNP-like	PTB	PTBP3_ARATH	At1g43190	Polypyrimidine tract-binding protein homolog 3	UniProt UP000006548, entry description, retrieved 2026-09-26
+hnRNP-like	UBP1	UBP1A_ARATH	UBP1A	Oligouridylate-binding protein 1A	UniProt UP000006548, entry description, retrieved 2026-09-26
+hnRNP-like	UBP1	UBP1B_ARATH	UBP1B	Oligouridylate-binding protein 1B	UniProt UP000006548, entry description, retrieved 2026-09-26
+hnRNP-like	UBP1	UBP1C_ARATH	UBP1C	Oligouridylate-binding protein 1C	UniProt UP000006548, entry description, retrieved 2026-09-26
+hnRNP-like	RBP45/RBP47	RB45A_ARATH	RBP45A	Polyadenylate-binding protein RBP45A	UniProt UP000006548, entry description, retrieved 2026-09-26
+hnRNP-like	RBP45/RBP47	RB45B_ARATH	RBP45B	Polyadenylate-binding protein RBP45B	UniProt UP000006548, entry description, retrieved 2026-09-26
+hnRNP-like	RBP45/RBP47	RP45C_ARATH	RBP45C	Polyadenylate-binding protein RBP45C	UniProt UP000006548, entry description, retrieved 2026-09-26
+hnRNP-like	RBP45/RBP47	RB47A_ARATH	RBP47A	Polyadenylate-binding protein RBP47A	UniProt UP000006548, entry description, retrieved 2026-09-26
+hnRNP-like	RBP45/RBP47	RB47B_ARATH	RBP47B	Polyadenylate-binding protein RBP47B	UniProt UP000006548, entry description, retrieved 2026-09-26
+hnRNP-like	RBP45/RBP47	R47BP_ARATH	RBP47B'	Polyadenylate-binding protein RBP47B'	UniProt UP000006548, entry description, retrieved 2026-09-26
+hnRNP-like	RBP45/RBP47	RB47C_ARATH	RBP47C	Polyadenylate-binding protein RBP47C	UniProt UP000006548, entry description, retrieved 2026-09-26
+hnRNP-like	RBP45/RBP47	R47CP_ARATH	RBP47C'	Polyadenylate-binding protein RBP47C'	UniProt UP000006548, entry description, retrieved 2026-09-26
+hnRNP-like	GRP7/GRP8	RBG7_ARATH	RBG7	Glycine-rich RNA-binding protein 7	UniProt UP000006548, entry description, retrieved 2026-09-26
+hnRNP-like	GRP7/GRP8	RBG8_ARATH	RBG8	Glycine-rich RNA-binding protein 8	UniProt UP000006548, entry description, retrieved 2026-09-26
+hnRNP-like	RZ1	RZ1A_ARATH	RZ1A	Glycine-rich RNA-binding protein RZ1A	UniProt UP000006548, entry description, retrieved 2026-09-26
+hnRNP-like	RZ1	RZ1B_ARATH	RZ1B	Glycine-rich RNA-binding protein RZ1B	UniProt UP000006548, entry description, retrieved 2026-09-26
+hnRNP-like	RZ1	RZ1C_ARATH	RZ1C	Glycine-rich RNA-binding protein RZ1C	UniProt UP000006548, entry description, retrieved 2026-09-26
+hnRNP-like	hnRNP	RNP1_ARATH	RNP1	Heterogeneous nuclear ribonucleoprotein 1	UniProt UP000006548, entry description, retrieved 2026-09-26
+hnRNP-like	hnRNP	HNRPQ_ARATH	LIF2	Heterogeneous nuclear ribonucleoprotein Q	UniProt UP000006548, entry description, retrieved 2026-09-26
+PRP	PRP8	PRP8A_ARATH	PRP8A	Pre-mRNA-processing-splicing factor 8A	UniProt UP000006548, entry description, retrieved 2026-09-26
+PRP	PRP8	PRP8B_ARATH	PRP8B	Pre-mRNA-processing-splicing factor 8B	UniProt UP000006548, entry description, retrieved 2026-09-26
+PRP	PRP38	PRP38_ARATH	PRP38	Pre-mRNA-splicing factor 38	UniProt UP000006548, entry description, retrieved 2026-09-26
+PRP	PRP39	PR39A_ARATH	PRP39-1	Pre-mRNA-processing factor 39-1	UniProt UP000006548, entry description, retrieved 2026-09-26
+PRP	PRP39	PR39B_ARATH	PRP39-2	Pre-mRNA-processing factor 39-2	UniProt UP000006548, entry description, retrieved 2026-09-26
+PRP	PRP40	PR40A_ARATH	PRP40A	Pre-mRNA-processing protein 40A	UniProt UP000006548, entry description, retrieved 2026-09-26
+PRP	PRP40	PR40B_ARATH	PRP40B	Pre-mRNA-processing protein 40B	UniProt UP000006548, entry description, retrieved 2026-09-26
+PRP	PRP40	PR40C_ARATH	PRP40C	Pre-mRNA-processing protein 40C	UniProt UP000006548, entry description, retrieved 2026-09-26
+PRP	PRP19	PR19A_ARATH	PRP19A	Pre-mRNA-processing factor 19 homolog 1	UniProt UP000006548, entry description, retrieved 2026-09-26
+PRP	PRP19	PR19B_ARATH	PRP19B	Pre-mRNA-processing factor 19 homolog 2	UniProt UP000006548, entry description, retrieved 2026-09-26
+PRP	DEAH helicase	ESP3_ARATH	ESP3	Pre-mRNA-splicing factor ATP-dependent RNA helicase DEAH1	UniProt UP000006548, entry description, retrieved 2026-09-26
+PRP	DEAH helicase	DEAH2_ARATH	At3g62310	Probable pre-mRNA-splicing factor ATP-dependent RNA helicase DEAH2	UniProt UP000006548, entry description, retrieved 2026-09-26
+PRP	DEAH helicase	PRP43_ARATH	At2g47250	Probable pre-mRNA-splicing factor ATP-dependent RNA helicase DEAH3	UniProt UP000006548, entry description, retrieved 2026-09-26
+PRP	DEAH helicase	DEAH4_ARATH	At1g27900	Probable pre-mRNA-splicing factor ATP-dependent RNA helicase DEAH4	UniProt UP000006548, entry description, retrieved 2026-09-26
+PRP	DEAH helicase	DEAH5_ARATH	At3g26560	Probable pre-mRNA-splicing factor ATP-dependent RNA helicase DEAH5	UniProt UP000006548, entry description, retrieved 2026-09-26
+PRP	DEAH helicase	DEAH6_ARATH	MEE29	Probable pre-mRNA-splicing factor ATP-dependent RNA helicase DEAH6	UniProt UP000006548, entry description, retrieved 2026-09-26
+PRP	DEAH helicase	PRP16_ARATH	CUV	Pre-mRNA-splicing factor ATP-dependent RNA helicase DEAH7	UniProt UP000006548, entry description, retrieved 2026-09-26
+PRP	DEAH helicase	DEAH8_ARATH	At4g16680	Probable pre-mRNA-splicing factor ATP-dependent RNA helicase DEAH8	UniProt UP000006548, entry description, retrieved 2026-09-26
+PRP	DEAH helicase	DEAH9_ARATH	At4g18465	Probable pre-mRNA-splicing factor ATP-dependent RNA helicase DEAH9	UniProt UP000006548, entry description, retrieved 2026-09-26
+PRP	DEAH helicase	PRP22_ARATH	RID1	Pre-mRNA-splicing factor ATP-dependent RNA helicase DEAH10	UniProt UP000006548, entry description, retrieved 2026-09-26
+PRP	SLU7	SLU7A_ARATH	SMP1	Pre-mRNA-splicing factor SLU7-A	UniProt UP000006548, entry description, retrieved 2026-09-26
+PRP	SLU7	SLU7B_ARATH	SMP2	Pre-mRNA-splicing factor SLU7-B	UniProt UP000006548, entry description, retrieved 2026-09-26
+PRP	SYF2	SYF2_ARATH	SYF2	Pre-mRNA-splicing factor SYF2	UniProt UP000006548, entry description, retrieved 2026-09-26
+PRP	SPF27	SPF27_ARATH	MOS4	Pre-mRNA-splicing factor SPF27 homolog	UniProt UP000006548, entry description, retrieved 2026-09-26
+snRNP	U1	RU17_ARATH	RNU1	U1 small nuclear ribonucleoprotein 70 kDa	UniProt UP000006548, entry description, retrieved 2026-09-26
+snRNP	U1	RU1A_ARATH	U1A	U1 small nuclear ribonucleoprotein A	UniProt UP000006548, entry description, retrieved 2026-09-26
+snRNP	U1	RU1C_ARATH	At4g03120	U1 small nuclear ribonucleoprotein C	UniProt UP000006548, entry description, retrieved 2026-09-26
+snRNP	U2	RU2A_ARATH	U2A'	U2 small nuclear ribonucleoprotein A'	UniProt UP000006548, entry description, retrieved 2026-09-26
+snRNP	U2	RU2B1_ARATH	U2B''	U2 small nuclear ribonucleoprotein B''	UniProt UP000006548, entry description, retrieved 2026-09-26
+snRNP	U2	RU2B2_ARATH	At1g06960	U2 small nuclear ribonucleoprotein B'' 2	UniProt UP000006548, entry description, retrieved 2026-09-26
+snRNP	SF3	ATO_ARATH	ATO	Splicing factor SF3a60 homolog	UniProt UP000006548, entry description, retrieved 2026-09-26
+snRNP	SF3	SF3A1_ARATH	At1g14650	Probable splicing factor 3A subunit 1	UniProt UP000006548, entry description, retrieved 2026-09-26
+snRNP	SF3	SF3B6_ARATH	At5g12190	Splicing factor 3B subunit 6-like protein	UniProt UP000006548, entry description, retrieved 2026-09-26
+snRNP	LSm	LSM1A_ARATH	LSM1A	Sm-like protein LSM1A	UniProt UP000006548, entry description, retrieved 2026-09-26
+snRNP	LSm	LSM1B_ARATH	LSM1B	Sm-like protein LSM1B	UniProt UP000006548, entry description, retrieved 2026-09-26
+snRNP	LSm	LSM2_ARATH	LSM2	Sm-like protein LSM2	UniProt UP000006548, entry description, retrieved 2026-09-26
+snRNP	LSm	LSM3A_ARATH	LSM3A	Sm-like protein LSM3A	UniProt UP000006548, entry description, retrieved 2026-09-26
+snRNP	LSm	LSM3B_ARATH	LSM3B	Sm-like protein LSM3B	UniProt UP000006548, entry description, retrieved 2026-09-26
+snRNP	LSm	LSM4_ARATH	LSM4	Sm-like protein LSM4	UniProt UP000006548, entry description, retrieved 2026-09-26
+snRNP	LSm	LSM5_ARATH	LSM5	Sm-like protein LSM5	UniProt UP000006548, entry description, retrieved 2026-09-26
+snRNP	LSm	LSM6A_ARATH	LSM6A	Sm-like protein LSM6A	UniProt UP000006548, entry description, retrieved 2026-09-26
+snRNP	LSm	LSM6B_ARATH	LSM6B	Sm-like protein LSM36B	UniProt UP000006548, entry description, retrieved 2026-09-26
+snRNP	LSm	LSM7_ARATH	LSM7	Sm-like protein LSM7	UniProt UP000006548, entry description, retrieved 2026-09-26
+snRNP	LSm	LSM8_ARATH	LSM8	Sm-like protein LSM8	UniProt UP000006548, entry description, retrieved 2026-09-26
+other splicing factor	Cactin	CATIN_ARATH	CTN	Splicing factor Cactin	UniProt UP000006548, entry description, retrieved 2026-09-26
+other splicing factor	SUA	SUA_ARATH	SUA	SUPPRESSOR OF ABI3-5	UniProt UP000006548, entry description, retrieved 2026-09-26
+SF1	-	SF1_ARATH	SF1	Splicing factor-like protein 1	UniProt UP000006548, entry description, retrieved 2026-09-26
+snRNP	U4/U6	PRP31_ARATH	PRP31	U4/U6 small nuclear ribonucleoprotein Prp31 homolog	UniProt UP000006548, entry description, retrieved 2026-09-26

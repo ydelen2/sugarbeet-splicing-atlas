@@ -1,0 +1,9 @@
+# mean PSI 0.1-0.9; detected SE, A3, A5 and MX events 7684, high-confidence 901; Mantel-Haenszel common odds ratio 2.23 (95% CI 1.85-2.68), chi-square 72.7, p 1.5e-17; homogeneity of odds ratios p 0.41
+depth	hc_both	hc_events	hc_share	other_both	other_events	other_share	in_test
+1-1	0	134	0.0	0	1184	0.0	no (no event with both forms)
+2-4	36	277	0.13	170	2370	0.0717	yes
+5-9	62	233	0.2661	227	1598	0.1421	yes
+10-19	44	144	0.3056	168	960	0.175	yes
+20-49	33	76	0.4342	106	468	0.2265	yes
+50-99	13	26	0.5	33	106	0.3113	yes
+100-max	9	11	0.8182	30	97	0.3093	yes

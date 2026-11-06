@@ -1,0 +1,7 @@
+# genes with at least one significant event of any type, per tool, and their overlap
+comparison	rmats_genes	suppa_genes	both	pct_of_suppa	pct_of_rmats
+tissue_GT1_control_taproot_vs_leaf	1414	1060	169	15.9	12.0
+tissue_GT3_control_taproot_vs_leaf	1544	476	113	23.7	7.3
+tissue_GT1_cold_taproot_vs_leaf	1841	375	112	29.9	6.1
+tissue_GT2_cold_taproot_vs_leaf	1719	754	168	22.3	9.8
+tissue_GT3_cold_taproot_vs_leaf	1796	270	84	31.1	4.7
